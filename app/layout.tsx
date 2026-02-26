@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     siteName: 'menit',
     locale: 'id_ID',
     type: 'website',
+    images: [
+      {
+        url: 'https://menit.live/logo.webp',
+        width: 512,
+        height: 512,
+        alt: 'menit — Portal Berita & Teknologi',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -51,6 +59,18 @@ export default function RootLayout({
     <html lang="id">
       <head>
         {/* Preconnect/preload hints are set per-page dynamically */}
+
+        {/*
+          Google AdSense — UNCOMMENT the Script below AFTER your AdSense account is approved.
+          Replace ca-pub-XXXXXXXXXXXXXXXX with your actual publisher ID.
+
+          <Script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        */}
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-white`}>
         <div className="flex min-h-screen flex-col">

@@ -100,13 +100,13 @@ export default function PrivacyPolicyPage() {
               .
             </p>
 
-            <h2>4. Google Analytics</h2>
+            <h2>4. Layanan Analitik</h2>
             <p>
-              Kami menggunakan Google Analytics untuk menganalisis penggunaan
-              situs. Google Analytics menggunakan cookies untuk mengumpulkan
-              informasi tentang bagaimana pengunjung menggunakan situs kami. Data
-              ini dikumpulkan secara anonim dan digunakan untuk memperbaiki
-              layanan kami.
+              Kami dapat menggunakan layanan analitik pihak ketiga seperti
+              Google Analytics untuk menganalisis penggunaan situs. Layanan ini
+              menggunakan cookies untuk mengumpulkan informasi tentang bagaimana
+              pengunjung menggunakan situs kami. Data ini dikumpulkan secara
+              anonim dan digunakan untuk memperbaiki layanan kami.
             </p>
 
             <h2>5. Penggunaan Informasi</h2>
@@ -183,8 +183,9 @@ export default function PrivacyPolicyPage() {
             <h2>11. Hubungi Kami</h2>
             <p>
               Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini,
-              silakan hubungi kami melalui halaman{' '}
-              <Link href="/contact">Kontak</Link>.
+              silakan hubungi kami melalui email{' '}
+              <a href="mailto:me@anla.my.id">me@anla.my.id</a>{' '}
+              atau halaman <Link href="/contact">Kontak</Link>.
             </p>
           </div>
         </div>

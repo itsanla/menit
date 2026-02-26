@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
 import { PostCard } from '@/components/post-card';
 import { HeroSlider } from '@/components/hero-slider';
+import { AdSlot } from '@/components/ad-slot';
 import { WebSiteSchema } from '@/components/json-ld';
 import { ArrowRight } from 'lucide-react';
 
@@ -48,6 +49,8 @@ export default function HomePage() {
       />
 
       <div className="bg-gray-50 min-h-screen">
+      <h1 className="sr-only">menit — Portal Berita Teknologi &amp; Inovasi Digital Terkini</h1>
+
       {/* Hero Slider — 3 berita terbaru */}
       {sliderPosts.length > 0 && (
         <section>
@@ -107,6 +110,11 @@ export default function HomePage() {
       {/* Berita Terkini Grid — post ke-4 dst */}
       {gridPosts.length > 0 && (
         <section className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
+          {/* Ad: Leaderboard */}
+          <div className="mb-6">
+            <AdSlot format="horizontal" className="overflow-hidden rounded-lg" />
+          </div>
+
           <div className="mb-5 flex items-end justify-between border-b-2 border-[var(--color-primary)] pb-2">
             <h2 className="text-lg font-extrabold uppercase tracking-tight text-gray-900">
               Berita Terkini

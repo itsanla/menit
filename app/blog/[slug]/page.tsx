@@ -18,6 +18,8 @@ import {
 import { MDXContent } from '@/components/mdx-content';
 import { ShareButtons } from '@/components/share-buttons';
 import { TableOfContents } from '@/components/table-of-contents';
+import { AuthorCard } from '@/components/author-card';
+import { AdSlot } from '@/components/ad-slot';
 import { ArticleSchema, BreadcrumbSchema } from '@/components/json-ld';
 import type { Metadata } from 'next';
 
@@ -46,7 +48,7 @@ export async function generateMetadata({
     title,
     description,
     keywords: tags,
-    authors: [{ name: 'menit', url: 'https://menit.live' }],
+    authors: [{ name: 'Anla Harpanda', url: 'https://menit.live/about' }],
     alternates: {
       canonical: url,
     },
@@ -59,7 +61,7 @@ export async function generateMetadata({
       type: 'article',
       publishedTime: post.frontmatter.date,
       modifiedTime: post.frontmatter.date,
-      authors: ['https://menit.live'],
+      authors: ['https://menit.live/about'],
       section: tags[0] || 'Teknologi',
       tags,
       ...(image && { images: [{ url: image, width: 1200, height: 630, alt: title }] }),
@@ -109,6 +111,8 @@ export default async function BlogPostPage({ params }: PageProps) {
         datePublished={post.frontmatter.date}
         tags={post.frontmatter.tags}
         readingTime={post.readingTime}
+        authorName="Anla Harpanda"
+        authorUrl="https://menit.live/about"
         siteName="menit"
         siteUrl="https://menit.live"
       />
@@ -220,6 +224,16 @@ export default async function BlogPostPage({ params }: PageProps) {
                   <ShareButtons title={post.frontmatter.title} slug={slug} />
                 </div>
               </div>
+            </div>
+
+            {/* Author Card */}
+            <div className="mt-6">
+              <AuthorCard />
+            </div>
+
+            {/* Ad: After Article */}
+            <div className="mt-6">
+              <AdSlot format="horizontal" className="overflow-hidden rounded-lg" />
             </div>
 
             {/* Prev / Next Navigation */}
@@ -366,6 +380,11 @@ export default async function BlogPostPage({ params }: PageProps) {
                       </li>
                     ))}
                 </ul>
+              </div>
+
+              {/* Ad: Sidebar */}
+              <div className="mt-6">
+                <AdSlot format="rectangle" fullWidth={false} className="overflow-hidden rounded-lg" />
               </div>
             </div>
           </aside>

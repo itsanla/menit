@@ -17,7 +17,7 @@ export function WebSiteSchema({ name, url, description }: WebSiteSchemaProps) {
       url,
       logo: {
         '@type': 'ImageObject',
-        url: `${url}/favicon.ico`,
+        url: `${url}/logo.webp`,
       },
     },
     inLanguage: 'id-ID',
@@ -48,6 +48,8 @@ interface ArticleSchemaProps {
   dateModified?: string;
   tags: string[];
   readingTime: number;
+  authorName: string;
+  authorUrl: string;
   siteName: string;
   siteUrl: string;
 }
@@ -61,6 +63,8 @@ export function ArticleSchema({
   dateModified,
   tags,
   readingTime,
+  authorName,
+  authorUrl,
   siteName,
   siteUrl,
 }: ArticleSchemaProps) {
@@ -85,9 +89,9 @@ export function ArticleSchema({
     datePublished,
     dateModified: dateModified || datePublished,
     author: {
-      '@type': 'Organization',
-      name: siteName,
-      url: siteUrl,
+      '@type': 'Person',
+      name: authorName,
+      url: authorUrl,
     },
     publisher: {
       '@type': 'Organization',
@@ -95,7 +99,7 @@ export function ArticleSchema({
       url: siteUrl,
       logo: {
         '@type': 'ImageObject',
-        url: `${siteUrl}/favicon.ico`,
+        url: `${siteUrl}/logo.webp`,
       },
     },
     keywords: tags.join(', '),
