@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
@@ -59,18 +60,12 @@ export default function RootLayout({
     <html lang="id">
       <head>
         {/* Preconnect/preload hints are set per-page dynamically */}
-
-        {/*
-          Google AdSense — UNCOMMENT the Script below AFTER your AdSense account is approved.
-          Replace ca-pub-XXXXXXXXXXXXXXXX with your actual publisher ID.
-
-          <Script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-            crossOrigin="anonymous"
-            strategy="afterInteractive"
-          />
-        */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4348406121095343"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-white`}>
         <div className="flex min-h-screen flex-col">
