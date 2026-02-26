@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
@@ -59,15 +58,13 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
-        {/* Preconnect/preload hints are set per-page dynamically */}
-      </head>
-      <body className={`${inter.variable} font-sans antialiased bg-white`}>
-        <Script
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4348406121095343"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        ></script>
+      </head>
+      <body className={`${inter.variable} font-sans antialiased bg-white`}>
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>
