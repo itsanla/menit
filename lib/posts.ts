@@ -7,6 +7,7 @@ const BLOG_DIR = path.join(process.cwd(), 'blog');
 export interface PostFrontmatter {
   title: string;
   date: string;
+  time?: string;
   description: string;
   tags: string[];
   image?: string;
@@ -46,12 +47,12 @@ export function getAllPosts(): Post[] {
     };
   });
 
-  // Sort by date descending
-  return posts.sort(
-    (a, b) =>
-      new Date(b.frontmatter.date).getTime() -
-      new Date(a.frontmatter.date).getTime()
-  );
+  // Sort by date + time descending
+  return posts.sort((a, b) => {
+    const dateTimeA = new Date(`${a.frontmatter.date}T${a.frontmatter.time || '00:00'}`);
+    const dateTimeB = new Date(`${b.frontmatter.date}T${b.frontmatter.time || '00:00'}`);
+    return dateTimeB.getTime() - dateTimeA.getTime();
+  });
 }
 
 export function getPostBySlug(slug: string): Post | undefined {

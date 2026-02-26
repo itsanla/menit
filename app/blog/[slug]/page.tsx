@@ -192,10 +192,12 @@ export default async function BlogPostPage({ params }: PageProps) {
                       <Calendar className="h-3.5 w-3.5" />
                       {formattedDate}
                     </span>
-                    <span className="flex items-center gap-1.5">
-                      <Clock className="h-3.5 w-3.5" />
-                      {post.readingTime} menit baca
-                    </span>
+                    {post.frontmatter.time && (
+                      <span className="flex items-center gap-1.5">
+                        <Clock className="h-3.5 w-3.5" />
+                        {post.frontmatter.time}
+                      </span>
+                    )}
                   </div>
                   <div className="ml-auto">
                     <ShareButtons title={post.frontmatter.title} slug={slug} />

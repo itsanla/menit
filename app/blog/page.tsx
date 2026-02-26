@@ -35,6 +35,7 @@ export default function BlogPage() {
     title: p.frontmatter.title,
     description: p.frontmatter.description,
     date: p.frontmatter.date,
+    time: p.frontmatter.time,
     tags: p.frontmatter.tags,
     image: p.frontmatter.image,
     readingTime: p.readingTime,

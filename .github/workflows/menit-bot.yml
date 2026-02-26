@@ -1,0 +1,53 @@
+name: Menit News Bot
+
+on:
+  schedule:
+    # Setiap 3 jam UTC → WIB (UTC+7): 07:00, 10:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # Manual trigger dari GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  generate-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install script dependencies
+        working-directory: scripts
+        run: npm install rss-parser axios groq-sdk
+
+      - name: Generate news articles
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: node scripts/generate-news.js
+
+      - name: Check for new articles
+        id: check
+        run: |
+          if [ -n "$(git status --porcelain blog/ scripts/history.json)" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit & Push new articles
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Menit Live Bot"
+          git config user.email "bot@menit.live"
+          git add blog/ scripts/history.json
+          ARTICLE_COUNT=$(git diff --cached --name-only | grep '\.mdx$' | wc -l)
+          git commit -m "📰 Auto: tambah ${ARTICLE_COUNT} berita baru [$(TZ='Asia/Jakarta' date +'%d/%m/%Y %H:%M WIB')]"
+          git push

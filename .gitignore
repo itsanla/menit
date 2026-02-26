@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# bot scripts dependencies (installed at runtime in CI)
+/scripts/node_modules
+/scripts/package-lock.json
+
+# crawl test files
+crawl.html

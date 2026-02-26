@@ -66,7 +66,7 @@ export function HeroSlider({ posts, children }: HeroSliderProps) {
             <div
               key={p.slug}
               className={`${
-                isActive ? 'opacity-100 relative' : 'opacity-0 absolute inset-0'
+                isActive ? 'opacity-100 relative z-10' : 'opacity-0 absolute inset-0 pointer-events-none'
               } transition-opacity duration-700 ease-in-out`}
             >
               <Link href={`/blog/${p.slug}`} className="group block">

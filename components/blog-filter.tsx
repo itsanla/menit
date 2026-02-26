@@ -23,6 +23,7 @@ interface SerializedPost {
   title: string;
   description: string;
   date: string;
+  time?: string;
   tags: string[];
   image?: string;
   readingTime: number;
@@ -390,10 +391,12 @@ function PostCardClient({
                 <span>
                   {format(new Date(post.date), 'd MMM yyyy', { locale: idLocale })}
                 </span>
-                <span className="flex items-center gap-1">
-                  <Clock className="h-3 w-3" />
-                  {post.readingTime} min
-                </span>
+                {post.time && (
+                  <span className="flex items-center gap-1">
+                    <Clock className="h-3 w-3" />
+                    {post.time}
+                  </span>
+                )}
               </div>
             </div>
           </div>
@@ -437,10 +440,12 @@ function PostCardClient({
           </div>
           <div className="mt-2 flex items-center gap-3 text-[11px] text-gray-400">
             <span>{format(new Date(post.date), 'd MMM yyyy', { locale: idLocale })}</span>
-            <span className="flex items-center gap-1">
-              <Clock className="h-3 w-3" />
-              {post.readingTime} min
-            </span>
+            {post.time && (
+              <span className="flex items-center gap-1">
+                <Clock className="h-3 w-3" />
+                {post.time}
+              </span>
+            )}
           </div>
         </div>
       </article>

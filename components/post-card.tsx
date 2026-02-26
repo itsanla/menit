@@ -52,10 +52,12 @@ export function PostCard({ post, featured = false }: PostCardProps) {
                       locale: id,
                     })}
                   </span>
-                  <span className="flex items-center gap-1">
-                    <Clock className="h-3 w-3" />
-                    {post.readingTime} min
-                  </span>
+                  {post.frontmatter.time && (
+                    <span className="flex items-center gap-1">
+                      <Clock className="h-3 w-3" />
+                      {post.frontmatter.time}
+                    </span>
+                  )}
                 </div>
               </div>
             </div>
@@ -135,10 +137,12 @@ export function PostCard({ post, featured = false }: PostCardProps) {
                 locale: id,
               })}
             </span>
-            <span className="flex items-center gap-1">
-              <Clock className="h-3 w-3" />
-              {post.readingTime} min
-            </span>
+            {post.frontmatter.time && (
+              <span className="flex items-center gap-1">
+                <Clock className="h-3 w-3" />
+                {post.frontmatter.time}
+              </span>
+            )}
           </div>
         </div>
       </article>

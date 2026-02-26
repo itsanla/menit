@@ -33,6 +33,7 @@ export default function HomePage() {
     title: p.frontmatter.title,
     description: p.frontmatter.description,
     date: p.frontmatter.date,
+    time: p.frontmatter.time,
     image: p.frontmatter.image,
     tags: p.frontmatter.tags,
     readingTime: p.readingTime,
@@ -99,10 +100,12 @@ export default function HomePage() {
                         </p>
                         <div className="mt-3 flex items-center gap-3 text-xs text-gray-400">
                           <span>{new Date(sliderData[0].date).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-                          <span className="flex items-center gap-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-3 w-3" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                            {sliderData[0].readingTime} min
-                          </span>
+                          {sliderData[0].time && (
+                            <span className="flex items-center gap-1">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-3 w-3" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                              {sliderData[0].time}
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
