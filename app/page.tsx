@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { getAllPosts } from '@/lib/posts';
+import { getAllPosts, getPostsByTag } from '@/lib/posts';
 import { PostCard } from '@/components/post-card';
 import { HeroSlider } from '@/components/hero-slider';
 import { AdSlot } from '@/components/ad-slot';
+import { CategorySection } from '@/components/category-section';
 import { WebSiteSchema } from '@/components/json-ld';
 import { ArrowRight } from 'lucide-react';
 
@@ -18,7 +19,13 @@ function getImageOrigin(url: string): string | null {
 export default function HomePage() {
   const posts = getAllPosts();
   const sliderPosts = posts.slice(0, 3);
-  const gridPosts = posts.slice(3);
+  const gridPosts = posts.slice(3, 7);
+
+  // Category sections — maks 4 berita per kategori
+  const teknologiPosts = getPostsByTag('teknologi', 4);
+  const ekonomiPosts = getPostsByTag('ekonomi', 4);
+  const politikPosts = getPostsByTag('politik', 4);
+  const pendidikanPosts = getPostsByTag('pendidikan', 4);
 
   // Serialize slider data for client component
   const sliderData = sliderPosts.map((p) => ({
@@ -135,6 +142,23 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      {/* Kategori: Teknologi */}
+      <CategorySection title="Teknologi" tag="teknologi" posts={teknologiPosts} />
+
+      {/* Kategori: Ekonomi */}
+      <CategorySection title="Ekonomi" tag="ekonomi" posts={ekonomiPosts} />
+
+      {/* Ad: Between categories */}
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <AdSlot format="horizontal" className="overflow-hidden rounded-lg" />
+      </div>
+
+      {/* Kategori: Politik */}
+      <CategorySection title="Politik" tag="politik" posts={politikPosts} />
+
+      {/* Kategori: Pendidikan */}
+      <CategorySection title="Pendidikan" tag="pendidikan" posts={pendidikanPosts} />
 
       {/* Empty State */}
       {posts.length === 0 && (

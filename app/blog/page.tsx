@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { getAllPosts } from '@/lib/posts';
 import { BlogFilter } from '@/components/blog-filter';
 import { CollectionPageSchema } from '@/components/json-ld';
@@ -62,7 +63,24 @@ export default function BlogPage() {
         </div>
 
         {posts.length > 0 ? (
-          <BlogFilter posts={serialized} allTags={allTags} />
+          <Suspense fallback={
+            <div className="grid gap-4 sm:grid-cols-2">
+              {Array.from({ length: 4 }).map((_, i) => (
+                <div key={i} className="animate-pulse rounded-lg bg-white p-4 ring-1 ring-gray-200">
+                  <div className="flex gap-4">
+                    <div className="hidden sm:block h-24 w-32 rounded-md bg-gray-200" />
+                    <div className="flex-1 space-y-3">
+                      <div className="h-3 w-16 rounded bg-gray-200" />
+                      <div className="h-4 w-full rounded bg-gray-200" />
+                      <div className="h-3 w-2/3 rounded bg-gray-200" />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          }>
+            <BlogFilter posts={serialized} allTags={allTags} />
+          </Suspense>
         ) : (
           <div className="rounded-lg border border-dashed border-gray-300 bg-white p-12 text-center">
             <p className="text-gray-500">

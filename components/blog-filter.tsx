@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useCallback, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { format } from 'date-fns';
 import { id as idLocale } from 'date-fns/locale';
@@ -13,6 +14,7 @@ import {
   Clock,
   X,
   ChevronDown,
+  Loader2,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -32,14 +34,33 @@ type SortOrder = 'asc' | 'desc';
 interface BlogFilterProps {
   posts: SerializedPost[];
   allTags: string[];
+  initialTag?: string;
 }
 
-export function BlogFilter({ posts, allTags }: BlogFilterProps) {
+const POSTS_PER_PAGE = 8;
+
+export function BlogFilter({ posts, allTags, initialTag = '' }: BlogFilterProps) {
+  const searchParams = useSearchParams();
+  const tagFromUrl = searchParams.get('tag') || initialTag;
+
   const [query, setQuery] = useState('');
   const [sortField, setSortField] = useState<SortField>('date');
   const [sortOrder, setSortOrder] = useState<SortOrder>('desc');
-  const [selectedTag, setSelectedTag] = useState<string>('');
-  const [showFilters, setShowFilters] = useState(false);
+  const [selectedTag, setSelectedTag] = useState<string>(tagFromUrl);
+  const [showFilters, setShowFilters] = useState(!!tagFromUrl);
+  const [visibleCount, setVisibleCount] = useState(POSTS_PER_PAGE);
+
+  // Sync tag from URL when search params change
+  useEffect(() => {
+    const urlTag = searchParams.get('tag') || '';
+    if (urlTag && urlTag !== selectedTag) {
+      setSelectedTag(urlTag);
+      setShowFilters(true);
+    }
+  }, [searchParams]);
+
+  // Sentinel ref for IntersectionObserver
+  const sentinelRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
     let result = [...posts];
@@ -73,6 +94,36 @@ export function BlogFilter({ posts, allTags }: BlogFilterProps) {
 
     return result;
   }, [posts, query, sortField, sortOrder, selectedTag]);
+
+  // Reset visible count when filters change
+  useEffect(() => {
+    setVisibleCount(POSTS_PER_PAGE);
+  }, [query, sortField, sortOrder, selectedTag]);
+
+  // Visible subset — only render this many posts in the DOM
+  const visiblePosts = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
+  const hasMore = visibleCount < filtered.length;
+
+  // IntersectionObserver to load more posts when sentinel is visible
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  const sentinelCallback = useCallback(
+    (node: HTMLDivElement | null) => {
+      if (observerRef.current) observerRef.current.disconnect();
+      if (!node) return;
+
+      observerRef.current = new IntersectionObserver(
+        (entries) => {
+          if (entries[0].isIntersecting && hasMore) {
+            setVisibleCount((prev) => prev + POSTS_PER_PAGE);
+          }
+        },
+        { rootMargin: '200px' }
+      );
+      observerRef.current.observe(node);
+    },
+    [hasMore]
+  );
 
   const activeFilterCount =
     (query ? 1 : 0) + (selectedTag ? 1 : 0) + (sortField !== 'date' || sortOrder !== 'desc' ? 1 : 0);
@@ -250,18 +301,35 @@ export function BlogFilter({ posts, allTags }: BlogFilterProps) {
       {/* Results count */}
       <div className="mt-4 mb-4 flex items-center justify-between">
         <p className="text-sm text-gray-500">
-          Menampilkan <span className="font-semibold text-gray-700">{filtered.length}</span> dari{' '}
-          <span className="font-semibold text-gray-700">{posts.length}</span> berita
+          Menampilkan <span className="font-semibold text-gray-700">{visiblePosts.length}</span> dari{' '}
+          <span className="font-semibold text-gray-700">{filtered.length}</span> berita
         </p>
       </div>
 
       {/* Results */}
-      {filtered.length > 0 ? (
-        <div className="grid gap-4 sm:grid-cols-2">
-          {filtered.map((post, i) => (
-            <PostCardClient key={post.slug} post={post} featured={i === 0 && !query && !selectedTag} />
-          ))}
-        </div>
+      {visiblePosts.length > 0 ? (
+        <>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {visiblePosts.map((post, i) => (
+              <PostCardClient key={post.slug} post={post} featured={i === 0 && !query && !selectedTag} />
+            ))}
+          </div>
+
+          {/* Sentinel for infinite scroll */}
+          {hasMore && (
+            <div ref={sentinelCallback} className="flex items-center justify-center py-8">
+              <Loader2 className="h-5 w-5 animate-spin text-[var(--color-primary)]" />
+              <span className="ml-2 text-sm text-gray-400">Memuat berita lainnya...</span>
+            </div>
+          )}
+
+          {/* End of list */}
+          {!hasMore && filtered.length > POSTS_PER_PAGE && (
+            <div className="py-6 text-center">
+              <p className="text-xs text-gray-400">Semua berita telah ditampilkan</p>
+            </div>
+          )}
+        </>
       ) : (
         <div className="rounded-lg border border-dashed border-gray-300 bg-white p-12 text-center">
           <Search className="mx-auto h-10 w-10 text-gray-300" />

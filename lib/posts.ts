@@ -102,3 +102,11 @@ export function getRelatedPosts(slug: string, limit = 3): Post[] {
 
   return scored.slice(0, limit).map((s) => s.post);
 }
+
+export function getPostsByTag(tag: string, limit = 4): Post[] {
+  const allPosts = getAllPosts();
+  const filtered = allPosts.filter((p) =>
+    p.frontmatter.tags.some((t) => t.toLowerCase() === tag.toLowerCase())
+  );
+  return filtered.slice(0, limit);
+}
