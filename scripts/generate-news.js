@@ -169,6 +169,40 @@ const CATEGORY_MAP = [
 // Helper Functions
 // ============================================================
 
+/** Normalisasi teks untuk perbandingan similarity */
+function normalizeText(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/** Hitung similarity antara 2 string (Jaccard similarity) */
+function textSimilarity(text1, text2) {
+  const words1 = new Set(normalizeText(text1).split(' '));
+  const words2 = new Set(normalizeText(text2).split(' '));
+  
+  const intersection = new Set([...words1].filter(x => words2.has(x)));
+  const union = new Set([...words1, ...words2]);
+  
+  return intersection.size / union.size;
+}
+
+/** Cek apakah judul terlalu mirip dengan judul yang sudah ada */
+function isSimilarToExisting(title, existingTitles, threshold = 0.6) {
+  const normalized = normalizeText(title);
+  
+  for (const existing of existingTitles) {
+    const similarity = textSimilarity(title, existing);
+    if (similarity >= threshold) {
+      return true;
+    }
+  }
+  
+  return false;
+}
+
 /** Buat slug URL-friendly dari teks */
 function slugify(text) {
   return text
@@ -223,6 +257,14 @@ function todayDate() {
   return now.toISOString().split('T')[0];
 }
 
+/** Waktu sekarang dalam format HH:MM (WIB) */
+function currentTime() {
+  const now = new Date(Date.now() + 7 * 60 * 60 * 1000); // UTC+7
+  const hours = String(now.getUTCHours()).padStart(2, '0');
+  const minutes = String(now.getUTCMinutes()).padStart(2, '0');
+  return `${hours}:${minutes}`;
+}
+
 /** Delay helper untuk rate limiting */
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -246,6 +288,51 @@ function loadHistory() {
     console.warn(`⚠️  Gagal load history: ${err.message}`);
   }
   return [];
+}
+
+/** Rebuild history dari file MDX yang sudah ada (untuk backward compatibility) */
+function rebuildHistoryFromExistingFiles() {
+  if (!fs.existsSync(BLOG_DIR)) return [];
+  
+  const files = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.mdx'));
+  const history = [];
+  
+  for (const file of files) {
+    try {
+      const content = fs.readFileSync(path.join(BLOG_DIR, file), 'utf-8');
+      const titleMatch = content.match(/^title: "(.+)"$/m);
+      const dateMatch = content.match(/^date: "(.+)"$/m);
+      const sourceMatch = content.match(/\*Sumber referensi: \[.+\]\((.+)\)\*/m);
+      
+      if (titleMatch && dateMatch) {
+        history.push({
+          slug: file.replace('.mdx', ''),
+          title: titleMatch[1].replace(/\\"/g, '"'),
+          sourceTitle: titleMatch[1].replace(/\\"/g, '"'), // Fallback
+          sourceUrl: sourceMatch ? sourceMatch[1] : '',
+          date: dateMatch[1],
+        });
+      }
+    } catch (err) {
+      // Skip file yang error
+    }
+  }
+  
+  return history;
+}
+
+/** Cek apakah URL sudah pernah diproses dalam N hari terakhir */
+function isUrlInRecentHistory(url, daysBack = 2) {
+  const history = loadHistory();
+  const cutoff = new Date(Date.now() - daysBack * 24 * 60 * 60 * 1000);
+  
+  return history.some(entry => {
+    if (entry.sourceUrl === url) {
+      const entryDate = new Date(entry.date);
+      return entryDate >= cutoff;
+    }
+    return false;
+  });
 }
 
 /** Simpan history ke file JSON */
@@ -395,20 +482,62 @@ async function crawlFeeds() {
   allItems.sort((a, b) => b.hotScore - a.hotScore || b.pubDate - a.pubDate);
 
   // Load history untuk cross-session dedup
-  const history = loadHistory();
+  let history = loadHistory();
+  
+  // Jika history kosong/sedikit, rebuild dari file MDX yang sudah ada
+  if (history.length < 10) {
+    console.log('🔄 Rebuilding history from existing MDX files...');
+    const rebuiltHistory = rebuildHistoryFromExistingFiles();
+    console.log(`📚 Rebuilt history: ${rebuiltHistory.length} entries`);
+    
+    // Merge dengan history yang ada (jika ada)
+    const mergedHistory = [...history, ...rebuiltHistory];
+    // Deduplicate by slug
+    const uniqueHistory = Array.from(
+      new Map(mergedHistory.map(h => [h.slug, h])).values()
+    );
+    
+    // Save merged history
+    saveHistory(uniqueHistory);
+    history = uniqueHistory;
+  }
+  
   const historySlugs = new Set(history.map((h) => h.slug));
-  const historyTitles = new Set(history.map((h) => h.title.toLowerCase()));
+  const historyTitles = history.map((h) => h.title);
+  const historySourceTitles = history.map((h) => h.sourceTitle || '');
+  const historyUrls = new Set(history.map((h) => h.sourceUrl).filter(Boolean));
 
-  // Deduplicate berdasarkan slug (hindari judul mirip / sudah ada)
+  // Deduplicate berdasarkan slug, URL, dan similarity judul
   const seen = new Set();
+  const seenTitles = [];
+  const seenUrls = new Set();
   const unique = allItems.filter((item) => {
     const key = slugify(item.title);
     if (!key || key.length < 5) return false;
     if (seen.has(key) || articleExists(key)) return false;
+    
     // Cross-session dedup: cek history
     if (historySlugs.has(key)) return false;
-    if (historyTitles.has(item.title.toLowerCase())) return false;
+    
+    // URL dedup: cek apakah URL sudah pernah diproses dalam 48 jam terakhir
+    if (isUrlInRecentHistory(item.link, 2) || historyUrls.has(item.link)) {
+      console.log(`⏭️  Skip (URL sudah diproses): ${item.title.slice(0, 60)}...`);
+      return false;
+    }
+    
+    // URL dedup dalam session saat ini
+    if (seenUrls.has(item.link)) return false;
+    
+    // Similarity check: cek dengan judul yang sudah ada (history + current session)
+    const allExistingTitles = [...historyTitles, ...historySourceTitles, ...seenTitles];
+    if (isSimilarToExisting(item.title, allExistingTitles, 0.6)) {
+      console.log(`⏭️  Skip (judul mirip): ${item.title.slice(0, 60)}...`);
+      return false;
+    }
+    
     seen.add(key);
+    seenTitles.push(item.title);
+    seenUrls.add(item.link);
     return true;
   });
 
@@ -594,6 +723,7 @@ Tulis HANYA deskripsi (1-2 kalimat, tanpa tanda kutip):`,
 
 function writeMDX({ slug, title, description, tags, content, sourceUrl, portal, image }) {
   const date = todayDate();
+  const time = currentTime();
 
   // Escape double quotes di title dan description untuk frontmatter
   const safeTitle = title.replace(/"/g, '\\"');
@@ -605,6 +735,7 @@ function writeMDX({ slug, title, description, tags, content, sourceUrl, portal, 
   const mdxContent = `---
 title: "${safeTitle}"
 date: "${date}"
+time: "${time}"
 description: "${safeDesc}"
 tags: ${JSON.stringify(tags)}${imageLine}
 ---
@@ -646,6 +777,7 @@ async function main() {
 
   if (candidates.length === 0) {
     console.log('\n📭 Tidak ada berita baru yang memenuhi kriteria. Selesai.');
+    process.exit(0);
     return;
   }
 
@@ -750,6 +882,7 @@ async function main() {
   }
 
   console.log(`\n🏁 Selesai! ${generated} artikel baru di-generate.`);
+  process.exit(0);
 }
 
 // Jalankan
