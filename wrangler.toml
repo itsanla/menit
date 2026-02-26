@@ -1,0 +1,5 @@
+name = "menit"
+compatibility_date = "2026-02-26"
+
+[site]
+bucket = "./out"
