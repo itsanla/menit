@@ -18,6 +18,16 @@ export const metadata: Metadata = {
   },
   description:
     'Portal berita teknologi, web development, Next.js, Cloudflare, dan inovasi digital terkini.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+      { url: '/favicon.ico', sizes: '16x16', type: 'image/x-icon' },
+    ],
+    apple: [
+      { url: '/favicon.ico', sizes: '180x180', type: 'image/x-icon' },
+    ],
+  },
   openGraph: {
     title: 'menit — Portal Berita & Teknologi',
     description:
@@ -58,6 +68,10 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="/favicon.ico" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/favicon.ico" sizes="180x180" />
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4348406121095343"
