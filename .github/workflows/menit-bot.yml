@@ -2,8 +2,8 @@ name: Menit News Bot
 
 on:
   schedule:
-    # Setiap 3 jam UTC → WIB (UTC+7): 07:00, 10:00, 13:00, 16:00, 19:00, 22:00, 01:00, 04:00
-    - cron: '0 */3 * * *'
+    # Setiap 8 jam UTC → WIB (UTC+7): 08:00, 16:00, 00:00
+    - cron: '0 */8 * * *'
   workflow_dispatch: # Manual trigger dari GitHub UI
 
 permissions:
