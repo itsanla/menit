@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
+import { ScrollToTop } from '@/components/scroll-to-top';
 import './globals.css';
 
 const inter = Inter({
@@ -79,6 +80,7 @@ export default function RootLayout({
         ></script>
       </head>
       <body className={`${inter.variable} font-sans antialiased bg-white`}>
+        <ScrollToTop />
         <div className="flex min-h-screen flex-col">
           <Header />
           <main className="flex-1">{children}</main>

@@ -98,7 +98,7 @@ export function PostCard({ post, featured = false }: PostCardProps) {
       >
         {/* Thumbnail */}
         {image && (
-          <div className="hidden sm:block flex-shrink-0 w-32 h-24 overflow-hidden rounded-md bg-gray-100">
+          <div className="flex-shrink-0 w-20 h-16 sm:w-32 sm:h-24 overflow-hidden rounded-md bg-gray-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={image}

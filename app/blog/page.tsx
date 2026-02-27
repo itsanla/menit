@@ -65,19 +65,32 @@ export default function BlogPage() {
 
         {posts.length > 0 ? (
           <Suspense fallback={
-            <div className="grid gap-4 sm:grid-cols-2">
-              {Array.from({ length: 4 }).map((_, i) => (
-                <div key={i} className="animate-pulse rounded-lg bg-white p-4 ring-1 ring-gray-200">
-                  <div className="flex gap-4">
-                    <div className="hidden sm:block h-24 w-32 rounded-md bg-gray-200" />
-                    <div className="flex-1 space-y-3">
-                      <div className="h-3 w-16 rounded bg-gray-200" />
-                      <div className="h-4 w-full rounded bg-gray-200" />
-                      <div className="h-3 w-2/3 rounded bg-gray-200" />
+            <div className="space-y-4">
+              {/* Search + Filter Skeleton */}
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+                <div className="flex-1 h-11 bg-gray-200 rounded-lg animate-pulse" />
+                <div className="w-32 h-11 bg-gray-200 rounded-lg animate-pulse" />
+              </div>
+              
+              {/* Results Count Skeleton */}
+              <div className="h-5 w-48 bg-gray-200 rounded animate-pulse" />
+              
+              {/* Posts Grid Skeleton */}
+              <div className="grid gap-4 sm:grid-cols-2">
+                {Array.from({ length: 8 }).map((_, i) => (
+                  <div key={i} className="animate-pulse rounded-lg bg-white p-4 ring-1 ring-gray-200">
+                    <div className="flex gap-4">
+                      <div className="flex-shrink-0 w-20 h-16 sm:w-32 sm:h-24 rounded-md bg-gray-200" />
+                      <div className="flex-1 space-y-3">
+                        <div className="h-3 w-16 rounded bg-gray-200" />
+                        <div className="h-4 w-full rounded bg-gray-200" />
+                        <div className="h-4 w-4/5 rounded bg-gray-200" />
+                        <div className="h-3 w-2/3 rounded bg-gray-200" />
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           }>
             <BlogFilter posts={serialized} allTags={allTags} />

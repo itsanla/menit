@@ -50,6 +50,7 @@ export function BlogFilter({ posts, allTags, initialTag = '' }: BlogFilterProps)
   const [selectedTag, setSelectedTag] = useState<string>(tagFromUrl);
   const [showFilters, setShowFilters] = useState(!!tagFromUrl);
   const [visibleCount, setVisibleCount] = useState(POSTS_PER_PAGE);
+  const [isFiltering, setIsFiltering] = useState(false);
 
   // Sync tag from URL when search params change
   useEffect(() => {
@@ -64,6 +65,7 @@ export function BlogFilter({ posts, allTags, initialTag = '' }: BlogFilterProps)
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   const filtered = useMemo(() => {
+    setIsFiltering(true);
     let result = [...posts];
 
     // Search
@@ -93,6 +95,7 @@ export function BlogFilter({ posts, allTags, initialTag = '' }: BlogFilterProps)
       return sortOrder === 'asc' ? cmp : -cmp;
     });
 
+    setTimeout(() => setIsFiltering(false), 100);
     return result;
   }, [posts, query, sortField, sortOrder, selectedTag]);
 
@@ -308,7 +311,22 @@ export function BlogFilter({ posts, allTags, initialTag = '' }: BlogFilterProps)
       </div>
 
       {/* Results */}
-      {visiblePosts.length > 0 ? (
+      {isFiltering ? (
+        <div className="grid gap-4 sm:grid-cols-2">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <div key={i} className="animate-pulse rounded-lg bg-white p-4 ring-1 ring-gray-200">
+              <div className="flex gap-4">
+                <div className="flex-shrink-0 w-20 h-16 sm:w-32 sm:h-24 rounded-md bg-gray-200" />
+                <div className="flex-1 space-y-3">
+                  <div className="h-3 w-16 rounded bg-gray-200" />
+                  <div className="h-4 w-full rounded bg-gray-200" />
+                  <div className="h-3 w-2/3 rounded bg-gray-200" />
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : visiblePosts.length > 0 ? (
         <>
           <div className="grid gap-4 sm:grid-cols-2">
             {visiblePosts.map((post, i) => (
@@ -367,6 +385,8 @@ function PostCardClient({
             <img
               src={post.image}
               alt={post.title}
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -410,11 +430,13 @@ function PostCardClient({
     <Link href={`/blog/${post.slug}`} className="group block">
       <article className="flex gap-4 overflow-hidden rounded-lg bg-white p-4 ring-1 ring-gray-200 transition-all hover:shadow-md hover:ring-gray-300">
         {post.image && (
-          <div className="hidden sm:block flex-shrink-0 w-32 h-24 overflow-hidden rounded-md bg-gray-100">
+          <div className="flex-shrink-0 w-20 h-16 sm:w-32 sm:h-24 overflow-hidden rounded-md bg-gray-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={post.image}
               alt={post.title}
+              loading="lazy"
+              decoding="async"
               className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
           </div>
