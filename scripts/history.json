@@ -1,37 +1,5 @@
 [
   {
-    "slug": "pemerintah-keluarkan-pedoman-penggunaan-kecerdasan-buatan-di-sekolah",
-    "title": "Pemerintah Keluarkan Pedoman Penggunaan Kecerdasan Buatan di Sekolah",
-    "sourceTitle": "Tujuh Menteri Terbitkan Pedoman Pemanfaatan AI di Pendidikan",
-    "sourceUrl": "https://nasional.tempo.co/read/2092525/tujuh-menteri-terbitkan-pedoman-pemanfaatan-ai-di-pendidikan",
-    "portal": "Tempo",
-    "date": "2026-03-14"
-  },
-  {
-    "slug": "serangan-air-keras-ke-aktivis-hak-asasi-manusia-dikecam-parlemen",
-    "title": "Serangan Air Keras ke Aktivis Hak Asasi Manusia Dikecam Parlemen",
-    "sourceTitle": "DPR Minta Polisi Usut Teror Air Keras ke Aktivis Kontras",
-    "sourceUrl": "https://nasional.tempo.co/read/2092530/dpr-minta-polisi-usut-teror-air-keras-ke-aktivis-kontras",
-    "portal": "Tempo",
-    "date": "2026-03-14"
-  },
-  {
-    "slug": "menteri-ham-minta-polisi-selidiki-penyiraman-air-keras-terhadap-andrie-yunus",
-    "title": "Menteri HAM Minta Polisi Selidiki Penyiraman Air Keras terhadap Andrie Yunus",
-    "sourceTitle": "Menteri HAM Desak Polisi Usut Tuntas Penyiraman Air Keras ke Andrie Yunus",
-    "sourceUrl": "https://www.liputan6.com/news/read/6297749/menteri-ham-desak-polisi-usut-tuntas-penyiraman-air-keras-ke-andrie-yunus",
-    "portal": "Liputan6",
-    "date": "2026-03-14"
-  },
-  {
-    "slug": "serangan-terhadap-aktivis-hak-asasi-manusia-di-jakarta-meningkat",
-    "title": "Serangan Terhadap Aktivis Hak Asasi Manusia di Jakarta Meningkat",
-    "sourceTitle": "8 Fakta Aktivis KontraS Diserang Pakai Air Keras",
-    "sourceUrl": "https://news.detik.com/berita/d-8399574/8-fakta-aktivis-kontras-diserang-pakai-air-keras",
-    "portal": "Detik",
-    "date": "2026-03-14"
-  },
-  {
     "slug": "remaja-di-argentina-mengidentifikasi-diri-sebagai-hewan-dengan-cara-unik",
     "title": "Remaja di Argentina Mengidentifikasi Diri sebagai Hewan dengan Cara Unik",
     "sourceTitle": "Viral di Argentina, Remaja Identifikasi Diri sebagai Hewan",
@@ -3998,5 +3966,37 @@
     "sourceUrl": "https://www.liputan6.com/news/read/6317120/kritik-polemik-pbi-jk-dpr-usulkan-pemerintah-tanggung-100-persen-iuran-bpjs-kesehatan",
     "portal": "Liputan6",
     "date": "2026-04-15"
+  },
+  {
+    "slug": "kepala-rutan-kendari-minta-maaf-atas-kebocoran-narapidana-korupsi-di-kedai-kopi",
+    "title": "Kepala Rutan Kendari Minta Maaf Atas Kebocoran Narapidana Korupsi di Kedai Kopi",
+    "sourceTitle": "Buntut Napi Korupsi Nongkrong di Kedai Kopi, Kepala Rutan Kendari Minta Maaf",
+    "sourceUrl": "https://www.liputan6.com/news/read/6317217/buntut-napi-korupsi-nongkrong-di-kedai-kopi-kepala-rutan-kendari-minta-maaf",
+    "portal": "Liputan6",
+    "date": "2026-04-16"
+  },
+  {
+    "slug": "presiden-barcelona-kecam-marah-pada-wasit-setelah-kehabisan-liga-champions",
+    "title": "Presiden Barcelona Kecam Marah pada Wasit Setelah Kehabisan Liga Champions",
+    "sourceTitle": "Presiden Barcelona Ngamuk, 'Serang' Wasit Usai Keok di Liga Champions",
+    "sourceUrl": "https://sport.detik.com/sepakbola/uefa/d-8446346/presiden-barcelona-ngamuk-serang-wasit-usai-keok-di-liga-champions",
+    "portal": "Detik",
+    "date": "2026-04-16"
+  },
+  {
+    "slug": "teknologi-ai-ciptakan-gambar-unik-trump-dengan-sentuhan-agamis",
+    "title": "Teknologi AI Ciptakan Gambar Unik Trump dengan Sentuhan Agamis",
+    "sourceTitle": "Gambar AI Trump Jadi 'Yesus' Tampilkan Sosok Makhluk Aneh",
+    "sourceUrl": "https://inet.detik.com/cyberlife/d-8446291/gambar-ai-trump-jadi-yesus-tampilkan-sosok-makhluk-aneh",
+    "portal": "Detik",
+    "date": "2026-04-16"
+  },
+  {
+    "slug": "perjanjian-pertahanan-indonesia-as-dikritik-karena-tidak-melibatkan-dpr",
+    "title": "Perjanjian Pertahanan Indonesia-AS Dikritik karena Tidak Melibatkan DPR",
+    "sourceTitle": "Kerja Sama Pertahanan Indonesia-AS Tak Konsultasi dengan DPR",
+    "sourceUrl": "https://nasional.tempo.co/read/2098492/kerja-sama-pertahanan-indonesia-as-tak-konsultasi-dengan-dpr",
+    "portal": "Tempo",
+    "date": "2026-04-16"
   }
 ]
