@@ -1,45 +1,5 @@
 [
   {
-    "slug": "drone-canggih-ukraina-berperan-penting-dalam-perang-melawan-rusia",
-    "title": "Drone Canggih Ukraina Berperan Penting dalam Perang melawan Rusia",
-    "sourceTitle": "Teknologi Drone Ukraina 'Dibayar' Korban Nyawa Lawan Rusia",
-    "sourceUrl": "https://inet.detik.com/cyberlife/d-8405378/teknologi-drone-ukraina-dibayar-korban-nyawa-lawan-rusia",
-    "portal": "Detik",
-    "date": "2026-03-18"
-  },
-  {
-    "slug": "iran-tingkatkan-akurasi-rudal-dengan-teknologi-mutakhir-dari-china",
-    "title": "Iran Tingkatkan Akurasi Rudal dengan Teknologi Mutakhir dari China",
-    "sourceTitle": "Rudal Makin Akurat, Iran Diduga Pakai Teknologi Canggih China",
-    "sourceUrl": "https://inet.detik.com/cyberlife/d-8404949/rudal-makin-akurat-iran-diduga-pakai-teknologi-canggih-china",
-    "portal": "Detik",
-    "date": "2026-03-18"
-  },
-  {
-    "slug": "penyiraman-air-keras-terhadap-aktivis-kontras-picu-kekhawatiran-keselamatan",
-    "title": "Penyiraman Air Keras terhadap Aktivis KontraS Picu Kekhawatiran Keselamatan",
-    "sourceTitle": "Upaya-upaya Pelaku Hapus Jejak Usai Siram Air Keras ke Aktivis KontraS",
-    "sourceUrl": "https://news.detik.com/berita/d-8405431/upaya-upaya-pelaku-hapus-jejak-usai-siram-air-keras-ke-aktivis-kontras",
-    "portal": "Detik",
-    "date": "2026-03-18"
-  },
-  {
-    "slug": "bgn-tutup-62-dapur-yang-gagal-memenuhi-standar-kualitas-makanan",
-    "title": "BGN Tutup 62 Dapur yang Gagal Memenuhi Standar Kualitas Makanan",
-    "sourceTitle": "BGN Bekukan 62 Dapur yang Sajikan Menu Tak Sesuai Standar",
-    "sourceUrl": "https://nasional.tempo.co/read/2093339/bgn-bekukan-62-dapur-yang-sajikan-menu-tak-sesuai-standar",
-    "portal": "Tempo",
-    "date": "2026-03-18"
-  },
-  {
-    "slug": "ganjil-genap-dihapus-sementara-untuk-kemudahan-arus-lalu-lintas-libur-lebaran",
-    "title": "Ganjil Genap Dihapus Sementara untuk Kemudahan Arus Lalu Lintas Libur Lebaran",
-    "sourceTitle": "Libur Lebaran, Ganjil Genap Jakarta Ditiadakan Mulai Hari Ini",
-    "sourceUrl": "https://news.detik.com/berita/d-8405410/libur-lebaran-ganjil-genap-jakarta-ditiadakan-mulai-hari-ini",
-    "portal": "Detik",
-    "date": "2026-03-18"
-  },
-  {
     "slug": "kemajuan-ai-ancam-30-persen-lulusan-baru-menganggur-di-indonesia",
     "title": "Kemajuan AI Ancam 30 Persen Lulusan Baru Menganggur di Indonesia",
     "sourceTitle": "Gawat, 30% Fresh Graduate Diprediksi Nganggur Tergusur AI",
@@ -3998,5 +3958,45 @@
     "sourceUrl": "https://inet.detik.com/consumer/d-8451488/one-ui-9-fitur-baru-dan-daftar-hp-samsung-yang-terima",
     "portal": "Detik",
     "date": "2026-04-19"
+  },
+  {
+    "slug": "pemerintah-diminta-perkuat-diplomasi-atas-penutupan-selat-hormuz-oleh-iran",
+    "title": "Pemerintah Diminta Perkuat Diplomasi Atas Penutupan Selat Hormuz oleh Iran",
+    "sourceTitle": "Komisi I DPR Minta Pemerintah Gencar Diplomasi Terkait 2 Kapal di Hormuz",
+    "sourceUrl": "https://news.detik.com/berita/d-8451926/komisi-i-dpr-minta-pemerintah-gencar-diplomasi-terkait-2-kapal-di-hormuz",
+    "portal": "Detik",
+    "date": "2026-04-20"
+  },
+  {
+    "slug": "kekalahan-arsenal-memicu-gelombang-meme-di-dunia-mayapada",
+    "title": "Kekalahan Arsenal Memicu Gelombang Meme di Dunia Mayapada",
+    "sourceTitle": "Meme Menohok! Air Mata Arsenal Jadi Minuman Usai Kalah dari City",
+    "sourceUrl": "https://inet.detik.com/fotoinet/d-8451964/meme-menohok-air-mata-arsenal-jadi-minuman-usai-kalah-dari-city",
+    "portal": "Detik",
+    "date": "2026-04-20"
+  },
+  {
+    "slug": "komnas-ham-desak-dpr-selidiki-operasi-militer-di-papua",
+    "title": "Komnas HAM Desak DPR Selidiki Operasi Militer di Papua",
+    "sourceTitle": "Komnas HAM Minta DPR Panggil Panglima TNI soal Satgas Habema",
+    "sourceUrl": "https://nasional.tempo.co/read/2099194/komnas-ham-minta-dpr-panggil-panglima-tni-soal-satgas-habema",
+    "portal": "Tempo",
+    "date": "2026-04-20"
+  },
+  {
+    "slug": "pemerintah-dki-jakarta-pertimbangkan-ulang-lokasi-konser-bts-di-jakarta",
+    "title": "Pemerintah DKI Jakarta Pertimbangkan Ulang Lokasi Konser BTS di Jakarta",
+    "sourceTitle": "Saat Pramono 'Ngalah' soal Venue Konser BTS Usai ARMY Bersuara",
+    "sourceUrl": "https://news.detik.com/berita/d-8451961/saat-pramono-ngalah-soal-venue-konser-bts-usai-army-bersuara",
+    "portal": "Detik",
+    "date": "2026-04-20"
+  },
+  {
+    "slug": "kapal-tanker-pertamina-aman-setelah-melewati-selat-hormuz-yang-ditutup-iran",
+    "title": "Kapal Tanker Pertamina Aman Setelah Melewati Selat Hormuz yang Ditutup Iran",
+    "sourceTitle": "Kondisi 2 Kapal Pertamina Usai Selat Hormuz Kembali Ditutup",
+    "sourceUrl": "https://finance.detik.com/energi/d-8451725/kondisi-2-kapal-pertamina-usai-selat-hormuz-kembali-ditutup",
+    "portal": "Detik",
+    "date": "2026-04-20"
   }
 ]
