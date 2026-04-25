@@ -1,53 +1,5 @@
 [
   {
-    "slug": "siswa-sekolah-rakyat-merayakan-lebaran-di-rumah-baru-yang-nyaman",
-    "title": "Siswa Sekolah Rakyat Merayakan Lebaran di Rumah Baru yang Nyaman",
-    "sourceTitle": "Mudik Siswa Sekolah Rakyat, Naila Akhirnya Punya Rumah Baru Layak Huni",
-    "sourceUrl": "https://news.detik.com/berita/d-8411155/mudik-siswa-sekolah-rakyat-naila-akhirnya-punya-rumah-baru-layak-huni",
-    "portal": "Detik",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "melemahnya-rupiah-terhadap-dolar-as-mengancam-kestabilan-ekonomi-nasional",
-    "title": "Melemahnya Rupiah Terhadap Dolar AS Mengancam Kestabilan Ekonomi Nasional",
-    "sourceTitle": "Pelemahan RupiahJadi Beban Ganda buat Ekonomi RI",
-    "sourceUrl": "https://finance.detik.com/bursa-dan-valas/d-8411413/pelemahan-rupiahjadi-beban-ganda-buat-ekonomi-ri",
-    "portal": "Detik",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "keributan-di-masjid-surabaya-pasca-salat-idulfitri-disebabkan-kesalahpahaman",
-    "title": "Keributan di Masjid Surabaya Pasca Salat Idulfitri Disebabkan Kesalahpahaman",
-    "sourceTitle": "Viral Jemaah di Surabaya Ribut Usai Salat Id, Ternyata Ini Penyebabnya",
-    "sourceUrl": "https://news.detik.com/berita/d-8411650/viral-jemaah-di-surabaya-ribut-usai-salat-id-ternyata-ini-penyebabnya",
-    "portal": "Detik",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "rupiah-diperkirakan-melemah-lagi-setelah-libur-lebaran",
-    "title": "Rupiah Diperkirakan Melemah Lagi Setelah Libur Lebaran",
-    "sourceTitle": "Rupiah Diramal Loyo Usai Libur Panjang Lebaran",
-    "sourceUrl": "https://finance.detik.com/bursa-dan-valas/d-8411399/rupiah-diramal-loyo-usai-libur-panjang-lebaran",
-    "portal": "Detik",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "pengurangan-gaji-pejabat-tinggi-negara-bisa-turunkan-defisit-apbn",
-    "title": "Pengurangan Gaji Pejabat Tinggi Negara Bisa Turunkan Defisit APBN",
-    "sourceTitle": "Potong Gaji Menteri hingga Anggota DPR Cukup Tahan Defisit APBN?",
-    "sourceUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-8411360/potong-gaji-menteri-hingga-anggota-dpr-cukup-tahan-defisit-apbn",
-    "portal": "Detik",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "kemenangan-manchester-city-jadi-kado-ultah-spesial-untuk-nico-oreilly",
-    "title": "Kemenangan Manchester City Jadi Kado Ultah Spesial untuk Nico O'Reilly",
-    "sourceTitle": "Kado Ultah Terbaik Nico O'Reilly",
-    "sourceUrl": "https://sport.detik.com/sepakbola/liga-inggris/d-8411767/kado-ultah-terbaik-nico-oreilly",
-    "portal": "Detik",
-    "date": "2026-03-23"
-  },
-  {
     "slug": "pertumpahan-darah-di-meja-makan-menjadi-simbol-kekerasan-kekuasaan",
     "title": "Pertumpahan Darah di Meja Makan Menjadi Simbol Kekerasan Kekuasaan",
     "sourceTitle": "Skandal 'Pesta Berdarah', Musuh Dihabisi di Meja Makan",
@@ -3998,5 +3950,53 @@
     "sourceUrl": "https://news.detik.com/berita/d-8460273/pesan-forum-kebangsaan-pimpinan-mpr-dpr-1999-2024-untuk-pemerintah",
     "portal": "Detik",
     "date": "2026-04-24"
+  },
+  {
+    "slug": "pembatasan-ambang-batas-dprd-mengancam-kelangsungan-partai-kecil-dan-baru",
+    "title": "Pembatasan Ambang Batas DPRD Mengancam Kelangsungan Partai Kecil dan Baru",
+    "sourceTitle": "Bos PPI: Ambang Batas DPRD Kiamat bagi Partai Kecil dan Parpol Baru",
+    "sourceUrl": "https://news.detik.com/berita/d-8460440/bos-ppi-ambang-batas-dprd-kiamat-bagi-partai-kecil-dan-parpol-baru",
+    "portal": "Detik",
+    "date": "2026-04-25"
+  },
+  {
+    "slug": "kasus-kecurangan-utbk-2026-timbulkan-keprihatinan-pada-seleksi-masuk-perguruan-t",
+    "title": "Kasus Kecurangan UTBK 2026 Timbulkan Keprihatinan pada Seleksi Masuk Perguruan Tinggi",
+    "sourceTitle": "Anggota DPR: Pelaku Kecurangan UTBK Harus Didiskualifikasi",
+    "sourceUrl": "https://nasional.tempo.co/read/2100273/anggota-dpr-pelaku-kecurangan-utbk-harus-didiskualifikasi",
+    "portal": "Tempo",
+    "date": "2026-04-25"
+  },
+  {
+    "slug": "pemerintah-semarang-tindak-lanjuti-keluhan-warga-dengan-kerja-nyata",
+    "title": "Pemerintah Semarang Tindak Lanjuti Keluhan Warga dengan Kerja Nyata",
+    "sourceTitle": "Respons Aduan Warga, Wali Kota Semarang Minta Dinas PU Keruk Sedimentasi Saluran Air di Gajah Raya",
+    "sourceUrl": "https://nasional.tempo.co/read/2100272/respons-aduan-warga-wali-kota-semarang-minta-dinas-pu-keruk-sedimentasi-saluran-air-di-gajah-raya",
+    "portal": "Tempo",
+    "date": "2026-04-25"
+  },
+  {
+    "slug": "tragedi-prt-di-jakarta-mengangkat-isu-keselamatan-dan-perlindungan-pekerja",
+    "title": "Tragedi PRT di Jakarta Mengangkat Isu Keselamatan dan Perlindungan Pekerja",
+    "sourceTitle": "5 Fakta PRT Tewas Usai Loncat dari Lantai 4 Kos Majikan di Jakarta",
+    "sourceUrl": "https://news.detik.com/berita/d-8460446/5-fakta-prt-tewas-usai-loncat-dari-lantai-4-kos-majikan-di-jakarta",
+    "portal": "Detik",
+    "date": "2026-04-25"
+  },
+  {
+    "slug": "prajurit-indonesia-gugur-dalam-serangan-israel-di-lebanon-memancing-kemarahan-wa",
+    "title": "Prajurit Indonesia Gugur dalam Serangan Israel di Lebanon Memancing Kemarahan Warganet",
+    "sourceTitle": "Praka Rico Pramudia Gugur Usai Serangan Israel di Lebanon, Warganet Murka",
+    "sourceUrl": "https://inet.detik.com/cyberlife/d-8460438/praka-rico-pramudia-gugur-usai-serangan-israel-di-lebanon-warganet-murka",
+    "portal": "Detik",
+    "date": "2026-04-25"
+  },
+  {
+    "slug": "pemerintah-dki-jakarta-pertimbangkan-kenaikan-tarif-transjakarta-akibat-biaya-op",
+    "title": "Pemerintah DKI Jakarta Pertimbangkan Kenaikan Tarif TransJakarta Akibat Biaya Operasional Meningkat",
+    "sourceTitle": "Pemprov: Biaya Operasional Meningkat, Kajian TransJ Naik Tarif Lumrah",
+    "sourceUrl": "https://news.detik.com/berita/d-8460427/pemprov-biaya-operasional-meningkat-kajian-transj-naik-tarif-lumrah",
+    "portal": "Detik",
+    "date": "2026-04-25"
   }
 ]
