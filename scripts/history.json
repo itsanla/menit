@@ -1,37 +1,5 @@
 [
   {
-    "slug": "apple-perbarui-sistem-operasi-dengan-ios-264-dan-fitur-terbaru",
-    "title": "Apple Perbarui Sistem Operasi dengan iOS 26.4 dan Fitur Terbaru",
-    "sourceTitle": "Apple Rilis iOS 26.4: Fitur Baru, Cara Download, dan Daftar Perangkat",
-    "sourceUrl": "https://inet.detik.com/consumer/d-8414161/apple-rilis-ios-26-4-fitur-baru-cara-download-dan-daftar-perangkat",
-    "portal": "Detik",
-    "date": "2026-03-25"
-  },
-  {
-    "slug": "lalu-lintas-jakarta-kembali-ramai-setelah-libur-lebaran",
-    "title": "Lalu Lintas Jakarta Kembali Ramai Setelah Libur Lebaran",
-    "sourceTitle": "Libur Lebaran Usai, Lalu Lintas Menuju Jakarta Mulai Ramai Lagi",
-    "sourceUrl": "https://news.detik.com/berita/d-8414163/libur-lebaran-usai-lalu-lintas-menuju-jakarta-mulai-ramai-lagi",
-    "portal": "Detik",
-    "date": "2026-03-25"
-  },
-  {
-    "slug": "pengawasan-harga-tiket-ragunan-untuk-akses-masyarakat-luas",
-    "title": "Pengawasan Harga Tiket Ragunan untuk Akses Masyarakat Luas",
-    "sourceTitle": "Ketua DPRD DKI Harap Harga Tiket Ragunan Tidak Naik",
-    "sourceUrl": "https://news.detik.com/berita/d-8414696/ketua-dprd-dki-harap-harga-tiket-ragunan-tidak-naik",
-    "portal": "Detik",
-    "date": "2026-03-25"
-  },
-  {
-    "slug": "pertamina-perluas-akses-air-bersih-ke-berbagai-wilayah-indonesia",
-    "title": "Pertamina Perluas Akses Air Bersih ke Berbagai Wilayah Indonesia",
-    "sourceTitle": "Hari Air Sedunia: Pertamina Hadirkan Akses Air Bersih dari Papua hingga Wilayah Bencana di Sumatra",
-    "sourceUrl": "https://www.liputan6.com/news/read/6303542/hari-air-sedunia-pertamina-hadirkan-akses-air-bersih-dari-papua-hingga-wilayah-bencana-di-sumatra",
-    "portal": "Liputan6",
-    "date": "2026-03-25"
-  },
-  {
     "slug": "pasar-iphone-model-air-mengungguli-varian-plus-dalam-minat-konsumen",
     "title": "Pasar iPhone: Model Air Mengungguli Varian Plus dalam Minat Konsumen",
     "sourceTitle": "iPhone Air Lebih Populer Ketimbang Plus, Strategi Apple Berhasil?",
@@ -3998,5 +3966,37 @@
     "sourceUrl": "https://www.liputan6.com/news/read/6324008/pelaku-penyiraman-air-keras-ke-pria-di-cengkareng-ditangkap",
     "portal": "Liputan6",
     "date": "2026-04-27"
+  },
+  {
+    "slug": "wakil-ketua-dpr-sufmi-dasco-tinjau-lokasi-kecelakaan-kereta-di-bekasi",
+    "title": "Wakil Ketua DPR Sufmi Dasco Tinjau Lokasi Kecelakaan Kereta di Bekasi",
+    "sourceTitle": "Wakil Ketua DPR Dasco Tinjau Lokasi Kecelakaan Kereta Bekasi: 3 Orang Meninggal Dunia",
+    "sourceUrl": "https://www.liputan6.com/news/read/6324386/wakil-ketua-dpr-dasco-tinjau-lokasi-kecelakaan-kereta-bekasi-3-orang-meninggal-dunia",
+    "portal": "Liputan6",
+    "date": "2026-04-28"
+  },
+  {
+    "slug": "korban-meninggal-kecelakaan-kereta-di-bekasi-timur-meningkat-jadi-empat-orang",
+    "title": "Korban Meninggal Kecelakaan Kereta di Bekasi Timur Meningkat Jadi Empat Orang",
+    "sourceTitle": "Korban Kecelakaan Kereta di Bekasi Timur Bertambah jadi 4 Orang Meninggal Dunia",
+    "sourceUrl": "https://www.liputan6.com/news/read/6324394/korban-kecelakaan-kereta-di-bekasi-timur-bertambah-jadi-4-orang-meninggal-dunia",
+    "portal": "Liputan6",
+    "date": "2026-04-28"
+  },
+  {
+    "slug": "pemerintah-luncurkan-program-baru-untuk-mengatasi-masalah-sampah-di-indonesia",
+    "title": "Pemerintah Luncurkan Program Baru untuk Mengatasi Masalah Sampah di Indonesia",
+    "sourceTitle": "Menteri Lingkungan Hidup Beberkan Program Penanganan Sampah",
+    "sourceUrl": "https://enamplus.liputan6.com/news/read/6324229/menteri-lingkungan-hidup-beberkan-program-penanganan-sampah",
+    "portal": "Liputan6",
+    "date": "2026-04-28"
+  },
+  {
+    "slug": "tabrakan-krl-di-bekasi-timur-sebabkan-keterlambatan-dan-penumpang-tertahan",
+    "title": "Tabrakan KRL di Bekasi Timur Sebabkan Keterlambatan dan Penumpang Tertahan",
+    "sourceTitle": "Ratusan Penumpang Tertahan di Manggarai Imbas Tabrakan KRL di Bekasi Timur",
+    "sourceUrl": "https://www.liputan6.com/news/read/6324393/ratusan-penumpang-tertahan-di-manggarai-imbas-tabrakan-krl-di-bekasi-timur",
+    "portal": "Liputan6",
+    "date": "2026-04-28"
   }
 ]
