@@ -1,37 +1,5 @@
 [
   {
-    "slug": "kemensos-luncurkan-wfh-untuk-tingkatkan-produktivitas-dan-efisiensi-kerja",
-    "title": "Kemensos Luncurkan WFH untuk Tingkatkan Produktivitas dan Efisiensi Kerja",
-    "sourceTitle": "Hari Pertama WFH, Mensos Gus Ipul Ingatkan Pegawai Tidak Keluyuran",
-    "sourceUrl": "https://news.detik.com/berita/d-8438316/hari-pertama-wfh-mensos-gus-ipul-ingatkan-pegawai-tidak-keluyuran",
-    "portal": "Detik",
-    "date": "2026-04-10"
-  },
-  {
-    "slug": "penipuan-berakhir-petaka-anggota-dpr-kehilangan-rp-300-juta",
-    "title": "Penipuan Berakhir Petaka, Anggota DPR kehilangan Rp 300 Juta",
-    "sourceTitle": "Anggota DPR Ahmad Sahroni Diduga Kena Tipu Orang Ngaku Bisa Urus Perkara, Uang Rp 300 Juta Raib",
-    "sourceUrl": "https://www.liputan6.com/news/read/6313845/anggota-dpr-ahmad-sahroni-diduga-kena-tipu-orang-ngaku-bisa-urus-perkara-uang-rp-300-juta-raib",
-    "portal": "Liputan6",
-    "date": "2026-04-10"
-  },
-  {
-    "slug": "pelaksanaan-wfh-asn-dimulai-suasana-balai-kota-jakarta-berubah",
-    "title": "Pelaksanaan WFH ASN Dimulai, Suasana Balai Kota Jakarta Berubah",
-    "sourceTitle": "Hari Pertama WFH ASN, Begini Suasana Balai Kota Jakarta",
-    "sourceUrl": "https://www.liputan6.com/photo/read/6313927/hari-pertama-wfh-asn-begini-suasana-balai-kota-jakarta",
-    "portal": "Liputan6",
-    "date": "2026-04-10"
-  },
-  {
-    "slug": "pemerintah-selamatkan-rp-313-triliun-dalam-upaya-berantas-korupsi",
-    "title": "Pemerintah Selamatkan Rp 31,3 Triliun dalam Upaya Berantas Korupsi",
-    "sourceTitle": "Uang Negara Rp 31,3 T Diselamatkan, Seskab: Presiden Tegas Berantas Korupsi",
-    "sourceUrl": "https://news.detik.com/berita/d-8438918/uang-negara-rp-31-3-t-diselamatkan-seskab-presiden-tegas-berantas-korupsi",
-    "portal": "Detik",
-    "date": "2026-04-10"
-  },
-  {
     "slug": "wfh-dimulai-asn-rasakan-perubahan-lingkungan-kerja-baru",
     "title": "WFH Dimulai, ASN Rasakan Perubahan Lingkungan Kerja Baru",
     "sourceTitle": "Cerita ASN Hari Pertama WFH: Hanya Pindah Lokasi, Kerja Sesuai Job Desc",
@@ -3997,6 +3965,38 @@
     "sourceTitle": "Purbaya Ikut Bantu Jaga Rupiah Mulai Hari Ini",
     "sourceUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-8486733/purbaya-ikut-bantu-jaga-rupiah-mulai-hari-ini",
     "portal": "Detik",
+    "date": "2026-05-13"
+  },
+  {
+    "slug": "serangan-siber-foxconn-mengakibatkan-kebocoran-data-besar",
+    "title": "Serangan Siber Foxconn Mengakibatkan Kebocoran Data Besar",
+    "sourceTitle": "Foxconn Diserang Ransomware, Data Apple dan Nvidia Diklaim Ikut Bocor",
+    "sourceUrl": "https://www.liputan6.com/tekno/read/6468318/foxconn-diserang-ransomware-data-apple-dan-nvidia-diklaim-ikut-bocor",
+    "portal": "Liputan6",
+    "date": "2026-05-13"
+  },
+  {
+    "slug": "kesulitan-listrik-di-pulau-tunda-banten-berlangsung-tiga-tahun-tanpa-solusi",
+    "title": "Kesulitan Listrik di Pulau Tunda Banten Berlangsung Tiga Tahun Tanpa Solusi",
+    "sourceTitle": "PLTS di Pulau Tunda Rusak Sejak 2018, DPRD Serang Dorong PLN Segera Perbaiki",
+    "sourceUrl": "https://news.detik.com/berita/d-8487636/plts-di-pulau-tunda-rusak-sejak-2018-dprd-serang-dorong-pln-segera-perbaiki",
+    "portal": "Detik",
+    "date": "2026-05-13"
+  },
+  {
+    "slug": "gerindra-tindak-anggota-dprd-yang-bermain-gim-selama-sesi-rapat-berlangsung",
+    "title": "Gerindra Tindak Anggota DPRD yang Bermain Gim Selama Sesi Rapat Berlangsung",
+    "sourceTitle": "Gerindra Panggil Anggota DPRD yang Bermain Gim Saat Rapat",
+    "sourceUrl": "https://nasional.tempo.co/read/2103433/gerindra-panggil-anggota-dprd-yang-bermain-gim-saat-rapat",
+    "portal": "Tempo",
+    "date": "2026-05-13"
+  },
+  {
+    "slug": "masyarakat-desak-dprd-jember-tindak-anggota-yang-merokok-dan-bermain-gim",
+    "title": "Masyarakat Desak DPRD Jember Tindak Anggota yang Merokok dan Bermain Gim",
+    "sourceTitle": "DPRD Jember Diminta Beri Sanksi Anggota Merokok dan Main Gim",
+    "sourceUrl": "https://nasional.tempo.co/read/2103431/dprd-jember-diminta-beri-sanksi-anggota-merokok-dan-main-gim",
+    "portal": "Tempo",
     "date": "2026-05-13"
   }
 ]
