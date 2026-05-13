@@ -1,37 +1,5 @@
 [
   {
-    "slug": "wfh-dimulai-asn-rasakan-perubahan-lingkungan-kerja-baru",
-    "title": "WFH Dimulai, ASN Rasakan Perubahan Lingkungan Kerja Baru",
-    "sourceTitle": "Cerita ASN Hari Pertama WFH: Hanya Pindah Lokasi, Kerja Sesuai Job Desc",
-    "sourceUrl": "https://news.detik.com/berita/d-8438876/cerita-asn-hari-pertama-wfh-hanya-pindah-lokasi-kerja-sesuai-job-desc",
-    "portal": "Detik",
-    "date": "2026-04-10"
-  },
-  {
-    "slug": "oknum-pemeras-berkedok-kpk-sasar-pejabat-tinggi-negara-ahmad-sahroni",
-    "title": "Oknum Pemeras Berkedok KPK Sasar Pejabat Tinggi Negara Ahmad Sahroni",
-    "sourceTitle": "KPK Ungkap Pengawai Gadungan Peras Sahroni Sudah Berulang Kali Beraksi ke DPR",
-    "sourceUrl": "https://news.detik.com/berita/d-8438848/kpk-ungkap-pengawai-gadungan-peras-sahroni-sudah-berulang-kali-beraksi-ke-dpr",
-    "portal": "Detik",
-    "date": "2026-04-10"
-  },
-  {
-    "slug": "istana-perbaiki-gaya-komunikasi-untuk-meningkatkan-kepercayaan-masyarakat",
-    "title": "Istana Perbaiki Gaya Komunikasi untuk Meningkatkan Kepercayaan Masyarakat",
-    "sourceTitle": "Gaya Komunikasi Istana Membaik, Masih Spontan Tapi Pesannya Lebih Jelas",
-    "sourceUrl": "https://www.liputan6.com/news/read/6314322/gaya-komunikasi-istana-membaik-masih-spontan-tapi-pesannya-lebih-jelas",
-    "portal": "Liputan6",
-    "date": "2026-04-10"
-  },
-  {
-    "slug": "kasus-korupsi-petral-dipertanyakan-penetapan-tersangka-belum-jelas",
-    "title": "Kasus Korupsi Petral Dipertanyakan, Penetapan Tersangka Belum Jelas",
-    "sourceTitle": "Kerugian Negara Masih Dihitung, Penetapan Tersangka Kasus Korupsi Petral Dipertanyakan",
-    "sourceUrl": "https://www.liputan6.com/news/read/6314323/kerugian-negara-masih-dihitung-penetapan-tersangka-kasus-korupsi-petral-dipertanyakan",
-    "portal": "Liputan6",
-    "date": "2026-04-10"
-  },
-  {
     "slug": "jusuf-kalla-resmikan-masjid-di-jepang-hasil-kerja-sama-warga-indonesia",
     "title": "Jusuf Kalla Resmikan Masjid di Jepang Hasil Kerja Sama Warga Indonesia",
     "sourceTitle": "Jusuf Kalla Resmikan Masjid As-Sholihin Yokohama, Hasil Gotong Royong WNI di Jepang",
@@ -3998,5 +3966,37 @@
     "sourceUrl": "https://nasional.tempo.co/read/2103431/dprd-jember-diminta-beri-sanksi-anggota-merokok-dan-main-gim",
     "portal": "Tempo",
     "date": "2026-05-13"
+  },
+  {
+    "slug": "indonesia-dan-rusia-perkuat-kerja-sama-teknologi-nuklir-untuk-masa-depan",
+    "title": "Indonesia dan Rusia Perkuat Kerja Sama Teknologi Nuklir untuk Masa Depan",
+    "sourceTitle": "Tindaklanjuti Arahan Prabowo, BRIN-Rosatom Perkuat Kerja Sama Nuklir Damai",
+    "sourceUrl": "https://news.detik.com/berita/d-8488386/tindaklanjuti-arahan-prabowo-brin-rosatom-perkuat-kerja-sama-nuklir-damai",
+    "portal": "Detik",
+    "date": "2026-05-14"
+  },
+  {
+    "slug": "tragedi-gigitan-ular-weling-di-bogor-satu-pemuda-meninggal",
+    "title": "Tragedi Gigitan Ular Weling di Bogor, Satu Pemuda Meninggal",
+    "sourceTitle": "Pria di Bogor Sempat Mainkan Ular Weling Usai Digigit hingga Tewas",
+    "sourceUrl": "https://news.detik.com/berita/d-8488385/pria-di-bogor-sempat-mainkan-ular-weling-usai-digigit-hingga-tewas",
+    "portal": "Detik",
+    "date": "2026-05-14"
+  },
+  {
+    "slug": "ancelotti-bantah-tuduhan-pemain-real-madrid-sulit-diatur",
+    "title": "Ancelotti Bantah Tuduhan Pemain Real Madrid Sulit Diatur",
+    "sourceTitle": "Ancelotti: Pemain Madrid Susah Diatur? Omong Kosong",
+    "sourceUrl": "https://sport.detik.com/sepakbola/liga-spanyol/d-8488331/ancelotti-pemain-madrid-susah-diatur-omong-kosong",
+    "portal": "Detik",
+    "date": "2026-05-14"
+  },
+  {
+    "slug": "harta-nadiem-makarim-dipertanyakan-jaksa-dalam-kasus-korupsi-proyek-chromebook",
+    "title": "Harta Nadiem Makarim Dipertanyakan Jaksa dalam Kasus Korupsi Proyek Chromebook",
+    "sourceTitle": "Jaksa Curiga Harta Nadiem Rp 4,8 Triliun Hasil Korupsi Chromebook",
+    "sourceUrl": "https://www.liputan6.com/news/read/6491488/jaksa-curiga-harta-nadiem-rp-48-triliun-hasil-korupsi-chromebook",
+    "portal": "Liputan6",
+    "date": "2026-05-14"
   }
 ]
