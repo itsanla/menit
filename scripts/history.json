@@ -1,37 +1,5 @@
 [
   {
-    "slug": "pertarungan-sengit-di-final-piala-fa-chelsea-dan-man-city-imbang-di-babak-pertam",
-    "title": "Pertarungan Sengit di Final Piala FA, Chelsea dan Man City Imbang di Babak Pertama",
-    "sourceTitle": "Final Piala FA: Chelsea Vs Man City 0-0 di Babak Pertama",
-    "sourceUrl": "https://sport.detik.com/sepakbola/liga-inggris/d-8491583/final-piala-fa-chelsea-vs-man-city-0-0-di-babak-pertama",
-    "portal": "Detik",
-    "date": "2026-05-16"
-  },
-  {
-    "slug": "presiden-perhatikan-rencana-microsoft-bangun-pusat-data-di-indonesia",
-    "title": "Presiden Perhatikan Rencana Microsoft Bangun Pusat Data di Indonesia",
-    "sourceTitle": "Microsoft Mau Bangun Data Center, Presiden Ketar-ketir",
-    "sourceUrl": "https://inet.detik.com/business/d-8491653/microsoft-mau-bangun-data-center-presiden-ketar-ketir",
-    "portal": "Detik",
-    "date": "2026-05-17"
-  },
-  {
-    "slug": "ketidakpastian-nilai-tukar-rupiah-menjadi-tantangan-besar-bagi-indonesia",
-    "title": "Ketidakpastian Nilai Tukar Rupiah Menjadi Tantangan Besar bagi Indonesia",
-    "sourceTitle": "Analisis Bos PPI saat Prabowo Yakinkan Publik soal Nilai Tukar Rupiah",
-    "sourceUrl": "https://news.detik.com/berita/d-8491700/analisis-bos-ppi-saat-prabowo-yakinkan-publik-soal-nilai-tukar-rupiah",
-    "portal": "Detik",
-    "date": "2026-05-17"
-  },
-  {
-    "slug": "leodaniel-siap-hadapi-unggulan-pertama-di-final-thailand-open-2026",
-    "title": "Leo/Daniel Siap Hadapi Unggulan Pertama di Final Thailand Open 2026",
-    "sourceTitle": "Jadwal Final Thailand Open 2026: Leo/Daniel Tantang Unggulan Pertama",
-    "sourceUrl": "https://sport.detik.com/raket/d-8491644/jadwal-final-thailand-open-2026-leo-daniel-tantang-unggulan-pertama",
-    "portal": "Detik",
-    "date": "2026-05-17"
-  },
-  {
     "slug": "ashanty-raih-gelar-doktor-s3-di-universitas-airlangga-setelah-perjuangan-panjang",
     "title": "Ashanty Raih Gelar Doktor S3 di Universitas Airlangga Setelah Perjuangan Panjang",
     "sourceTitle": "Perjuangan Ashanty Raih Gelar Doktor S3 di UNAIR Jelang Naik Haji",
@@ -3997,6 +3965,38 @@
     "sourceTitle": "Peran Glory Harimas di Kasus Korupsi MBG: Jual Titik SPPG - Setor Uang ke Dadan",
     "sourceUrl": "https://news.detik.com/berita/d-8537736/peran-glory-harimas-di-kasus-korupsi-mbg-jual-titik-sppg-setor-uang-ke-dadan",
     "portal": "Detik",
+    "date": "2026-06-19"
+  },
+  {
+    "slug": "penangkapan-anggota-dprd-sumbar-setelah-5-bulan-buron-dalam-kasus-korupsi-dana-r",
+    "title": "Penangkapan Anggota DPRD Sumbar Setelah 5 Bulan Buron Dalam Kasus Korupsi Dana Rp 34 Juta",
+    "sourceTitle": "Buron 5 Bulan, Anggota DPRD Sumbar Tersangka Kasus Korupsi Rp 34 M Ditangkap",
+    "sourceUrl": "https://news.detik.com/berita/d-8537934/buron-5-bulan-anggota-dprd-sumbar-tersangka-kasus-korupsi-rp-34-m-ditangkap",
+    "portal": "Detik",
+    "date": "2026-06-19"
+  },
+  {
+    "slug": "apple-diprediksi-pindahkan-produksi-chip-ke-intel-menurut-donald-trump",
+    "title": "Apple Diprediksi Pindahkan Produksi Chip ke Intel Menurut Donald Trump",
+    "sourceTitle": "Trump Klaim Apple Bakal Pesan Chip ke Intel",
+    "sourceUrl": "https://inet.detik.com/business/d-8537975/trump-klaim-apple-bakal-pesan-chip-ke-intel",
+    "portal": "Detik",
+    "date": "2026-06-19"
+  },
+  {
+    "slug": "dua-tokoh-publik-ditangkap-terkait-kasus-ijazah-presiden-jokowi",
+    "title": "Dua Tokoh Publik Ditangkap Terkait Kasus Ijazah Presiden Jokowi",
+    "sourceTitle": "Roy Suryo dan dr Tifa Ditangkap Terkait Kasus Ijazah Jokowi",
+    "sourceUrl": "https://www.liputan6.com/news/read/7893380/roy-suryo-dan-dr-tifa-ditangkap-terkait-kasus-ijazah-jokowi",
+    "portal": "Liputan6",
+    "date": "2026-06-19"
+  },
+  {
+    "slug": "openai-perkuat-posisi-dengan-rekrut-bos-google-gemini",
+    "title": "OpenAI Perkuat Posisi dengan Rekrut Bos Google Gemini",
+    "sourceTitle": "OpenAI Rekrut Bos Google Gemini, Perang AI Semakin Panas",
+    "sourceUrl": "https://www.liputan6.com/tekno/read/7892888/openai-rekrut-bos-google-gemini-perang-ai-semakin-panas",
+    "portal": "Liputan6",
     "date": "2026-06-19"
   }
 ]
