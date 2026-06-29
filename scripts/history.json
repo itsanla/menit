@@ -1,37 +1,5 @@
 [
   {
-    "slug": "terminal-cicaheum-tetap-ramai-meski-diarahkan-ke-leuwipanjang",
-    "title": "Terminal Cicaheum Tetap Ramai Meski Diarahkan ke Leuwipanjang",
-    "sourceTitle": "Ramai-ramai Bus Bertahan Meski Terminal Cicaheum 'Disuntik Mati'",
-    "sourceUrl": "https://news.detik.com/berita/d-8506789/ramai-ramai-bus-bertahan-meski-terminal-cicaheum-disuntik-mati",
-    "portal": "Detik",
-    "date": "2026-05-27"
-  },
-  {
-    "slug": "pertumbuhan-ekonomi-561-ditantang-kinerja-riil-di-lapangan",
-    "title": "Pertumbuhan Ekonomi 5,61% Ditantang Kinerja Riil di Lapangan",
-    "sourceTitle": "Purbaya Tepis Ekonomi 5,61% Cuma di Atas Kertas: Penjualan Mobil Naik-Mal Ramai",
-    "sourceUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-8507001/purbaya-tepis-ekonomi-5-61-cuma-di-atas-kertas-penjualan-mobil-naik-mal-ramai",
-    "portal": "Detik",
-    "date": "2026-05-27"
-  },
-  {
-    "slug": "kasus-pemalsuan-riset-wni-di-denmark-picu-penyelidikan-kementerian-riset-dan-tek",
-    "title": "Kasus Pemalsuan Riset WNI di Denmark Picu Penyelidikan Kementerian Riset dan Teknologi",
-    "sourceTitle": "2 WNI Diduga Palsukan Riset saat Konferensi di Denmark, Kemendiktisaintek dan UNY Lakukan Penyelidikan",
-    "sourceUrl": "https://www.tribunnews.com/nasional/7834879/2-wni-diduga-palsukan-riset-saat-konferensi-di-denmark-kemendiktisaintek-uny-lakukan-penyelidikan",
-    "portal": "Tribunnews",
-    "date": "2026-05-27"
-  },
-  {
-    "slug": "balai-ternak-di-kuningan-jadi-pusat-kurban-idul-adha-dan-berbagi-daging",
-    "title": "Balai Ternak di Kuningan Jadi Pusat Kurban Idul Adha dan Berbagi Daging",
-    "sourceTitle": "Mengintip Aktivitas Balai Ternak BAZNAS Kuningan, Jadi Tempat Berbagi Daging Saat Idul Adha",
-    "sourceUrl": "https://www.tribunnews.com/nasional/7834878/mengintip-aktivitas-balai-ternak-baznas-kuningan-jadi-tempat-berbagi-daging-saat-idul-adha",
-    "portal": "Tribunnews",
-    "date": "2026-05-27"
-  },
-  {
     "slug": "panduan-lengkap-berlangganan-layanan-apple-dengan-mudah",
     "title": "Panduan Lengkap Berlangganan Layanan Apple dengan Mudah",
     "sourceTitle": "Cara Bayar Langganan Apple Music hingga iCloud+ di App Store",
@@ -3998,5 +3966,37 @@
     "sourceUrl": "https://finance.detik.com/moneter/d-8550949/izin-bpr-di-klaten-dicabut-lps-siap-bayar-klaim-simpanan-nasabah",
     "portal": "Detik",
     "date": "2026-06-28"
+  },
+  {
+    "slug": "anggota-dprd-ttu-buka-suara-setelah-terlibat-kasus-kematian-dokter",
+    "title": "Anggota DPRD TTU Buka Suara Setelah Terlibat Kasus Kematian Dokter",
+    "sourceTitle": "Aggota DPRD TTU Veronika Lake Buka Suara Usai Terseret Kematian Dokter Icha",
+    "sourceUrl": "https://news.detik.com/berita/d-8551591/aggota-dprd-ttu-veronika-lake-buka-suara-usai-terseret-kematian-dokter-icha",
+    "portal": "Detik",
+    "date": "2026-06-29"
+  },
+  {
+    "slug": "komunitas-tangerang-ubah-limbah-tutup-botol-jadi-kerajinan-bernilai-ekonomi",
+    "title": "Komunitas Tangerang Ubah Limbah Tutup Botol Jadi Kerajinan Bernilai Ekonomi",
+    "sourceTitle": "Limbah Tutup Botol Disulap Jadi Kerajinan Bernilai Ekonomi di Tangerang",
+    "sourceUrl": "https://finance.detik.com/foto-bisnis/d-8551375/limbah-tutup-botol-disulap-jadi-kerajinan-bernilai-ekonomi-di-tangerang",
+    "portal": "Detik",
+    "date": "2026-06-29"
+  },
+  {
+    "slug": "gelombang-besar-menghantam-pantai-bali-warga-terpaksa-mengungsi",
+    "title": "Gelombang Besar Menghantam Pantai Bali, Warga Terpaksa Mengungsi",
+    "sourceTitle": "Ombak Besar Terjang Rumah di Pesisir Pantai Bali, Warga Ketakutan",
+    "sourceUrl": "https://news.detik.com/berita/d-8551639/ombak-besar-terjang-rumah-di-pesisir-pantai-bali-warga-ketakutan",
+    "portal": "Detik",
+    "date": "2026-06-29"
+  },
+  {
+    "slug": "teknologi-ai-berhasil-prediksi-badai-matahari-sebelum-menghantam-bumi",
+    "title": "Teknologi AI Berhasil Prediksi Badai Matahari Sebelum Menghantam Bumi",
+    "sourceTitle": "AI BRIN Bisa Prediksi Badai Matahari 4 Hari Sebelum Hantam Bumi",
+    "sourceUrl": "https://inet.detik.com/science/d-8551610/ai-brin-bisa-prediksi-badai-matahari-4-hari-sebelum-hantam-bumi",
+    "portal": "Detik",
+    "date": "2026-06-29"
   }
 ]
