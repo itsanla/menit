@@ -1,37 +1,5 @@
 [
   {
-    "slug": "amblesnya-jalan-lenteng-agung-picu-kekhawatiran-atas-kondisi-jalan-jakarta",
-    "title": "Amblesnya Jalan Lenteng Agung Picu Kekhawatiran Atas Kondisi Jalan Jakarta",
-    "sourceTitle": "Jalan Lenteng Agung Ambles, Rano Karno Warning Wilayah Jakarta Lain",
-    "sourceUrl": "https://www.liputan6.com/news/read/7445517/jalan-lenteng-agung-ambles-rano-karno-warning-wilayah-jakarta-lain",
-    "portal": "Liputan6",
-    "date": "2026-05-30"
-  },
-  {
-    "slug": "perbaikan-jalan-lenteng-agung-arah-depok-dimulai-untuk-meningkatkan-keselamatan",
-    "title": "Perbaikan Jalan Lenteng Agung Arah Depok Dimulai untuk Meningkatkan Keselamatan",
-    "sourceTitle": "Perbaikan Dikebut, Lajur Kanan Jalan Lenteng Agung Arah Depok Dibongkar",
-    "sourceUrl": "https://news.detik.com/berita/d-8510343/perbaikan-dikebut-lajur-kanan-jalan-lenteng-agung-arah-depok-dibongkar",
-    "portal": "Detik",
-    "date": "2026-05-30"
-  },
-  {
-    "slug": "bareskrim-sita-dokumen-pt-mms-terkait-kasus-manipulasi-ekspor-minyak-sawit",
-    "title": "Bareskrim Sita Dokumen PT MMS Terkait Kasus Manipulasi Ekspor Minyak Sawit",
-    "sourceTitle": "Bareskrim Geledah Kantor PT MMS Terkait Dugaan Manipulasi Ekspor Sawit",
-    "sourceUrl": "https://news.detik.com/berita/d-8510340/bareskrim-geledah-kantor-pt-mms-terkait-dugaan-manipulasi-ekspor-sawit",
-    "portal": "Detik",
-    "date": "2026-05-30"
-  },
-  {
-    "slug": "erupsi-gunung-semeru-kembali-terjadi-malam-ini-dengan-awan-panas-setinggi-2-km",
-    "title": "Erupsi Gunung Semeru Kembali Terjadi Malam Ini Dengan Awan Panas Setinggi 2 Km",
-    "sourceTitle": "Gunung Semeru Erupsi Lagi Malam Ini, Tinggi Awan Panas Capai 2 Km",
-    "sourceUrl": "https://news.detik.com/berita/d-8510330/gunung-semeru-erupsi-lagi-malam-ini-tinggi-awan-panas-capai-2-km",
-    "portal": "Detik",
-    "date": "2026-05-30"
-  },
-  {
     "slug": "kasus-kematian-misterius-di-hotel-jakarta-selatan-dengan-luka-di-kepala",
     "title": "Kasus Kematian Misterius di Hotel Jakarta Selatan Dengan Luka di Kepala",
     "sourceTitle": "Wanita Tewas di Hotel Kebayoran Baru Jaksel, Ada Luka di Kepala",
@@ -3998,5 +3966,37 @@
     "sourceUrl": "https://inet.detik.com/telecommunication/d-8555737/registrasi-sim-card-biometrik-resmi-diterapkan-begini-suasananya",
     "portal": "Detik",
     "date": "2026-07-01"
+  },
+  {
+    "slug": "apple-luncurkan-fitur-ai-baru-untuk-mendukung-kreativitas-pengguna",
+    "title": "Apple Luncurkan Fitur AI Baru untuk Mendukung Kreativitas Pengguna",
+    "sourceTitle": "Fitur AI Baru Apple Creator Studio, Final Cut Pro Hingga Logic Pro Kian Cerdas",
+    "sourceUrl": "https://inet.detik.com/cyberlife/d-8555980/fitur-ai-baru-apple-creator-studio-final-cut-pro-hingga-logic-pro-kian-cerdas",
+    "portal": "Detik",
+    "date": "2026-07-02"
+  },
+  {
+    "slug": "kasus-kekerasan-pemotor-di-jakarta-selatan-dalam-penyelidikan-polisi",
+    "title": "Kasus Kekerasan Pemotor di Jakarta Selatan Dalam Penyelidikan Polisi",
+    "sourceTitle": "Viral Pemotor di Jaksel Pukuli Pasutri di Jalanan, Polisi Selidiki",
+    "sourceUrl": "https://news.detik.com/berita/d-8556088/viral-pemotor-di-jaksel-pukuli-pasutri-di-jalanan-polisi-selidiki",
+    "portal": "Detik",
+    "date": "2026-07-02"
+  },
+  {
+    "slug": "pemerintah-pertimbangkan-meningkatkan-dana-tkd-untuk-daerah-yang-efisien",
+    "title": "Pemerintah Pertimbangkan Meningkatkan Dana TKD untuk Daerah yang Efisien",
+    "sourceTitle": "Rencana Tambah Dana TKD buat Daerah Belanja Pegawainya di Atas 30%",
+    "sourceUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-8556083/rencana-tambah-dana-tkd-buat-daerah-belanja-pegawainya-di-atas-30",
+    "portal": "Detik",
+    "date": "2026-07-02"
+  },
+  {
+    "slug": "insiden-pemotor-wanita-nyasar-di-jalan-tol-jakarta-cikampek",
+    "title": "Insiden Pemotor Wanita Nyasar di Jalan Tol Jakarta-Cikampek",
+    "sourceTitle": "Viral Pemotor Wanita Nyasar Masuk Tol Jakarta-Cikampek",
+    "sourceUrl": "https://www.liputan6.com/news/read/8141927/viral-pemotor-wanita-nyasar-masuk-tol-jakarta-cikampek",
+    "portal": "Liputan6",
+    "date": "2026-07-02"
   }
 ]
