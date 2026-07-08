@@ -1,37 +1,5 @@
 [
   {
-    "slug": "pemerintah-optimis-fundamental-ekonomi-indonesia-tetap-kuat",
-    "title": "Pemerintah Optimis Fundamental Ekonomi Indonesia Tetap Kuat",
-    "sourceTitle": "Rupiah-IHSG Melemah, Istana: Fundamental Ekonomi Kita Kuat",
-    "sourceUrl": "https://finance.detik.com/bursa-dan-valas/d-8518539/rupiah-ihsg-melemah-istana-fundamental-ekonomi-kita-kuat",
-    "portal": "Detik",
-    "date": "2026-06-05"
-  },
-  {
-    "slug": "pramono-undang-menteri-merasakan-kemudahan-transportasi-publik-jakarta",
-    "title": "Pramono Undang Menteri Merasakan Kemudahan Transportasi Publik Jakarta",
-    "sourceTitle": "Pramono Ajak Menteri Prabowo Naik Angkutan Umum di Jakarta",
-    "sourceUrl": "https://nasional.tempo.co/read/2106910/pramono-ajak-menteri-prabowo-naik-angkutan-umum-di-jakarta",
-    "portal": "Tempo",
-    "date": "2026-06-05"
-  },
-  {
-    "slug": "pengusaha-muda-sutama-sukses-buka-cabang-bengkel-setelah-dibina-astra",
-    "title": "Pengusaha Muda Sutama Sukses Buka Cabang Bengkel Setelah Dibina Astra",
-    "sourceTitle": "Kisah Sutama Jatuh Bangun Bisnis Bengkel, Buka Cabang Usai Jadi Binaan Astra",
-    "sourceUrl": "https://finance.detik.com/solusiukm/d-8518554/kisah-sutama-jatuh-bangun-bisnis-bengkel-buka-cabang-usai-jadi-binaan-astra",
-    "portal": "Detik",
-    "date": "2026-06-05"
-  },
-  {
-    "slug": "said-iqbal-dipertimbangkan-untuk-kabinet-baru-pemerintah",
-    "title": "Said Iqbal Dipertimbangkan untuk Kabinet Baru Pemerintah",
-    "sourceTitle": "Istana soal Said Iqbal Masuk Kabinet: Berkaitan dengan Tenaga Kerja",
-    "sourceUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-8518546/istana-soal-said-iqbal-masuk-kabinet-berkaitan-dengan-tenaga-kerja",
-    "portal": "Detik",
-    "date": "2026-06-05"
-  },
-  {
     "slug": "kasus-korupsi-bgn-dinilai-sederhana-dan-tidak-profesional-oleh-pengamat",
     "title": "Kasus Korupsi BGN Dinilai Sederhana dan Tidak Profesional oleh Pengamat",
     "sourceTitle": "MAKI Sebut Korupsi MBG Amatiran: Mainkan Harga Fiktif dan Atur Tender",
@@ -3996,6 +3964,38 @@
     "title": "Penipuan Berkedok Persahabatan di Media Sosial Mengancam Masyarakat Jakut",
     "sourceTitle": "Pria di Jakut Ditipu 'Teman Dekat' Facebook, Motor Raib Dibawa Kabur",
     "sourceUrl": "https://news.detik.com/berita/d-8564404/pria-di-jakut-ditipu-teman-dekat-facebook-motor-raib-dibawa-kabur",
+    "portal": "Detik",
+    "date": "2026-07-08"
+  },
+  {
+    "slug": "inovasi-google-yang-belum-terwujud-hingga-saat-ini",
+    "title": "Inovasi Google yang Belum Terwujud Hingga Saat Ini",
+    "sourceTitle": "3 Fitur Andalan Google yang Belum Dirilis Sampai Saat Ini",
+    "sourceUrl": "https://www.liputan6.com/tekno/read/8240788/3-fitur-andalan-google-yang-belum-dirilis-sampai-saat-ini",
+    "portal": "Liputan6",
+    "date": "2026-07-08"
+  },
+  {
+    "slug": "pantai-anyer-carita-dinyatakan-aman-meskipun-anak-krakatau-masih-siaga",
+    "title": "Pantai Anyer-Carita Dinyatakan Aman Meskipun Anak Krakatau Masih Siaga",
+    "sourceTitle": "Anak Krakatau Siaga, BPBD Banten Pastikan Pantai Anyer-Carita Aman Dikunjungi",
+    "sourceUrl": "https://news.detik.com/berita/d-8564570/anak-krakatau-siaga-bpbd-banten-pastikan-pantai-anyer-carita-aman-dikunjungi",
+    "portal": "Detik",
+    "date": "2026-07-08"
+  },
+  {
+    "slug": "drama-sepakbola-internasional-emosi-messi-dan-sorotan-ronaldo",
+    "title": "Drama Sepakbola Internasional: Emosi Messi dan Sorotan Ronaldo",
+    "sourceTitle": "Messi Menangis usai Argentina Lolos Dramatis, Ronaldo Kembali Diseret",
+    "sourceUrl": "https://inet.detik.com/cyberlife/d-8564563/messi-menangis-usai-argentina-lolos-dramatis-ronaldo-kembali-diseret",
+    "portal": "Detik",
+    "date": "2026-07-08"
+  },
+  {
+    "slug": "mahkamah-agung-langkah-tegas-pecat-dua-hakim-setelah-kasasi-ditolak",
+    "title": "Mahkamah Agung Langkah Tegas Pecat Dua Hakim Setelah Kasasi Ditolak",
+    "sourceTitle": "MA Segera Pecat Hakim Arif Nuryanta dan Djuyamto Usai Kasasi Ditolak",
+    "sourceUrl": "https://news.detik.com/berita/d-8564559/ma-segera-pecat-hakim-arif-nuryanta-dan-djuyamto-usai-kasasi-ditolak",
     "portal": "Detik",
     "date": "2026-07-08"
   }
