@@ -1,37 +1,5 @@
 [
   {
-    "slug": "pemerintah-integrasi-teknologi-digital-dan-ai-untuk-penyaluran-bansos-lebih-efek",
-    "title": "Pemerintah Integrasi Teknologi Digital dan AI untuk Penyaluran Bansos Lebih Efektif",
-    "sourceTitle": "Luhut Ungkap Penyaluran Baru Bansos Bakal Berbasis Digital dan Pakai AI",
-    "sourceUrl": "https://news.detik.com/berita/d-8525418/luhut-ungkap-penyaluran-baru-bansos-bakal-berbasis-digital-dan-pakai-ai",
-    "portal": "Detik",
-    "date": "2026-06-10"
-  },
-  {
-    "slug": "penyandang-disabilitas-fatoni-berperan-penting-dalam-sistem-siaga-bencana-ntb",
-    "title": "Penyandang Disabilitas Fatoni Berperan Penting dalam Sistem Siaga Bencana NTB",
-    "sourceTitle": "Kisah Fatoni, Penyandang Disabilitas Perancang Sistem Siaga Bencana di NTB",
-    "sourceUrl": "https://www.liputan6.com/news/read/7850240/kisah-fatoni-penyandang-disabilitas-perancang-sistem-siaga-bencana-di-ntb",
-    "portal": "Liputan6",
-    "date": "2026-06-10"
-  },
-  {
-    "slug": "menteri-p2mi-luncurkan-migrant-center-untuk-meningkatkan-kualitas-tenaga-kerja-i",
-    "title": "Menteri P2MI Luncurkan Migrant Center untuk Meningkatkan Kualitas Tenaga Kerja Indonesia",
-    "sourceTitle": "Bangun Ekosistem SDM Global, Menteri P2MI Resmikan Migrant Center di Batam",
-    "sourceUrl": "https://news.detik.com/berita/d-8525546/bangun-ekosistem-sdm-global-menteri-p2mi-resmikan-migrant-center-di-batam",
-    "portal": "Detik",
-    "date": "2026-06-10"
-  },
-  {
-    "slug": "konflik-apple-dan-uni-eropa-memburuk-karena-kebijakan-dma",
-    "title": "Konflik Apple dan Uni Eropa Memburuk karena Kebijakan DMA",
-    "sourceTitle": "Drama Siri AI di Eropa: Apple Salahkan DMA, UE Membalas",
-    "sourceUrl": "https://inet.detik.com/consumer/d-8525512/drama-siri-ai-di-eropa-apple-salahkan-dma-ue-membalas",
-    "portal": "Detik",
-    "date": "2026-06-10"
-  },
-  {
     "slug": "kenaikan-suku-bunga-bi-picu-peningkatan-ihsg-dan-nilai-rupiah",
     "title": "Kenaikan Suku Bunga BI Picu Peningkatan IHSG dan Nilai Rupiah",
     "sourceTitle": "BI Rate Naik Bikin IHSG &amp; Rupiah Bangkit, Semoga Nggak Loyo Lagi!",
@@ -3998,5 +3966,37 @@
     "sourceUrl": "https://sport.detik.com/juara-bola-dunia-2026/bola-dunia/d-8571056/presiden-fifa-percaya-wacana-piala-dunia-64-tim-bisa-terwujud",
     "portal": "Detik",
     "date": "2026-07-12"
+  },
+  {
+    "slug": "apple-tuntut-openai-atas-kasus-pencurian-teknologi-canggih",
+    "title": "Apple Tuntut OpenAI atas Kasus Pencurian Teknologi Canggih",
+    "sourceTitle": "Apple Murka dan Gugat OpenAI Gegara Pencurian Teknologi",
+    "sourceUrl": "https://inet.detik.com/law-and-policy/d-8571286/apple-murka-dan-gugat-openai-gegara-pencurian-teknologi",
+    "portal": "Detik",
+    "date": "2026-07-13"
+  },
+  {
+    "slug": "pemprov-dki-jakarta-beri-kemudahan-asn-untuk-mengantar-anak-di-hari-pertama-seko",
+    "title": "Pemprov DKI Jakarta Beri Kemudahan ASN untuk Mengantar Anak di Hari Pertama Sekolah",
+    "sourceTitle": "ASN DKI Boleh Antar Anak Hari Pertama Sekolah, Mulai Kerja Jam 12 Siang",
+    "sourceUrl": "https://news.detik.com/berita/d-8571233/asn-dki-boleh-antar-anak-hari-pertama-sekolah-mulai-kerja-jam-12-siang",
+    "portal": "Detik",
+    "date": "2026-07-13"
+  },
+  {
+    "slug": "indonesia-ciptakan-teknologi-inovatif-yang-menginspirasi-dunia",
+    "title": "Indonesia Ciptakan Teknologi Inovatif yang Menginspirasi Dunia",
+    "sourceTitle": "4 Teknologi Buatan Indonesia Ini Dicontek Negara Lain",
+    "sourceUrl": "https://inet.detik.com/science/d-8571001/4-teknologi-buatan-indonesia-ini-dicontek-negara-lain",
+    "portal": "Detik",
+    "date": "2026-07-13"
+  },
+  {
+    "slug": "kemacetan-jalan-tol-arah-jakarta-muncul-kembali-di-hari-pertama-sekolah",
+    "title": "Kemacetan Jalan Tol Arah Jakarta Muncul Kembali di Hari Pertama Sekolah",
+    "sourceTitle": "Hari Pertama Masuk Sekolah, Lalin di Tol Arah Jakarta Macet",
+    "sourceUrl": "https://news.detik.com/berita/d-8571309/hari-pertama-masuk-sekolah-lalin-di-tol-arah-jakarta-macet",
+    "portal": "Detik",
+    "date": "2026-07-13"
   }
 ]
