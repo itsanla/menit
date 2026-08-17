@@ -1,45 +1,5 @@
 [
   {
-    "slug": "samsung-luncurkan-teknologi-layar-lipat-terbaru-dengan-nama-flex-titanium",
-    "title": "Samsung Luncurkan Teknologi Layar Lipat Terbaru Dengan Nama Flex Titanium",
-    "sourceTitle": "Samsung Perkenalkan Flex Titanium, Teknologi Layar Foldable Terbaru",
-    "sourceUrl": "https://inet.detik.com/consumer/d-8574469/samsung-perkenalkan-flex-titanium-teknologi-layar-foldable-terbaru",
-    "portal": "Detik",
-    "date": "2026-07-15"
-  },
-  {
-    "slug": "pemerintah-tunggu-kesepakatan-dpr-untuk-ruu-perampasan-aset",
-    "title": "Pemerintah Tunggu Kesepakatan DPR untuk RUU Perampasan Aset",
-    "sourceTitle": "Yusril: Pemerintah Tunggu DPR Selesai Susun RUU Perampasan Aset",
-    "sourceUrl": "https://news.detik.com/berita/d-8574531/yusril-pemerintah-tunggu-dpr-selesai-susun-ruu-perampasan-aset",
-    "portal": "Detik",
-    "date": "2026-07-15"
-  },
-  {
-    "slug": "kecerdasan-buatan-dihadapkan-pada-tuduhan-pelanggaran-hak-cipta-teknologi",
-    "title": "Kecerdasan Buatan Dihadapkan pada Tuduhan Pelanggaran Hak Cipta Teknologi",
-    "sourceTitle": "Tanggapan OpenAI soal Tuduhan Curi Rahasia Dagang Apple",
-    "sourceUrl": "https://www.liputan6.com/tekno/read/8246476/tanggapan-openai-soal-tuduhan-curi-rahasia-dagang-apple",
-    "portal": "Liputan6",
-    "date": "2026-07-15"
-  },
-  {
-    "slug": "pemberantasan-korupsi-butuh-ruu-perampasan-aset-segera-disahkan",
-    "title": "Pemberantasan Korupsi Butuh RUU Perampasan Aset Segera Disahkan",
-    "sourceTitle": "MAKI Dorong DPR Segera Sahkan RUU Perampasan Aset: Korupsi Sudah Parah",
-    "sourceUrl": "https://news.detik.com/berita/d-8574491/maki-dorong-dpr-segera-sahkan-ruu-perampasan-aset-korupsi-sudah-parah",
-    "portal": "Detik",
-    "date": "2026-07-15"
-  },
-  {
-    "slug": "menteri-ham-sampaikan-pidato-pada-perayaan-hut-kemerdekaan-prancis",
-    "title": "Menteri HAM Sampaikan Pidato pada Perayaan HUT Kemerdekaan Prancis",
-    "sourceTitle": "Wakili Pemerintah RI, Pigai Sampaikan Pidato di HUT Kemerdekaan Prancis",
-    "sourceUrl": "https://news.detik.com/berita/d-8574534/wakili-pemerintah-ri-pigai-sampaikan-pidato-di-hut-kemerdekaan-prancis",
-    "portal": "Detik",
-    "date": "2026-07-15"
-  },
-  {
     "slug": "dua-pelaku-pencurian-truk-di-bogor-kembali-ditangkap-setelah-beraksi-selama-dua-",
     "title": "Dua Pelaku Pencurian Truk di Bogor Kembali Ditangkap Setelah Beraksi Selama Dua Jam",
     "sourceTitle": "2 Maling Truk di Bogor Ditangkap Usai 2 Jam Beraksi, Pelaku Residivis",
@@ -3998,5 +3958,45 @@
     "sourceUrl": "https://news.detik.com/berita/d-8621623/kunjungi-manggarai-timur-mendagri-pastikan-percepatan-pemulihan-pascagempa",
     "portal": "Detik",
     "date": "2026-08-16"
+  },
+  {
+    "slug": "penangkapan-bos-gendut-di-kampung-bahari-tambahkan-daftar-tindakan-tegas",
+    "title": "Penangkapan Bos Gendut di Kampung Bahari Tambahkan Daftar Tindakan Tegas",
+    "sourceTitle": "'Bos gendut' Ditangkap di Kampung Bahari, Sahroni: Tangkap Bandar Besar Lain",
+    "sourceUrl": "https://news.detik.com/berita/d-8621740/bos-gendut-ditangkap-di-kampung-bahari-sahroni-tangkap-bandar-besar-lain",
+    "portal": "Detik",
+    "date": "2026-08-17"
+  },
+  {
+    "slug": "pemerintah-himbau-fleksibilitas-kerja-pada-hari-kemerdekaan-indonesia",
+    "title": "Pemerintah Himbau Fleksibilitas Kerja pada Hari Kemerdekaan Indonesia",
+    "sourceTitle": "Instansi dan Perusahaan Diimbau Beri Pegawai Fleksibilitas Kerja pada 18 Agustus",
+    "sourceUrl": "https://www.liputan6.com/news/read/8271246/instansi-dan-perusahaan-diimbau-beri-pegawai-fleksibilitas-kerja-pada-18-agustus",
+    "portal": "Liputan6",
+    "date": "2026-08-17"
+  },
+  {
+    "slug": "rakyat-indonesia-pererat-persatuan-dan-kesatuan-di-hari-kemerdekaan",
+    "title": "Rakyat Indonesia Pererat Persatuan dan Kesatuan di Hari Kemerdekaan",
+    "sourceTitle": "Upacara HUT RI, Warga Berpakaian Adat Mulai Tiba di Istana Merdeka",
+    "sourceUrl": "https://www.liputan6.com/news/read/8271244/upacara-hut-ri-warga-berpakaian-adat-mulai-tiba-di-istana-merdeka",
+    "portal": "Liputan6",
+    "date": "2026-08-17"
+  },
+  {
+    "slug": "gempa-ntt-menewaskan-53-orang-evakuasi-korban-masih-berlangsung",
+    "title": "Gempa NTT Menewaskan 53 Orang, Evakuasi Korban Masih Berlangsung",
+    "sourceTitle": "Korban Gempa NTT Capai 53 Orang, Waka MPR Minta Semua Pihak Fokus Evakuasi",
+    "sourceUrl": "https://news.detik.com/berita/d-8621741/korban-gempa-ntt-capai-53-orang-waka-mpr-minta-semua-pihak-fokus-evakuasi",
+    "portal": "Detik",
+    "date": "2026-08-17"
+  },
+  {
+    "slug": "pengelolaan-lalu-lintas-saat-perayaan-hut-ri-ke-81-di-jakarta",
+    "title": "Pengelolaan Lalu Lintas Saat Perayaan HUT RI ke-81 di Jakarta",
+    "sourceTitle": "Simak, Ini Rekayasa Lalu Lintas Saat Rangkaian HUT ke-81 RI di Jakarta",
+    "sourceUrl": "https://news.detik.com/berita/d-8621739/simak-ini-rekayasa-lalu-lintas-saat-rangkaian-hut-ke-81-ri-di-jakarta",
+    "portal": "Detik",
+    "date": "2026-08-17"
   }
 ]
